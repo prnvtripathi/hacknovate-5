@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+html::-webkit-scrollbar-track {
+    width: 0;
+}
+
+html::-webkit-scrollbar {
+    width: 0;
+}
+
+html::-webkit-scrollbar-thumb {
+    width: 0;
+}
+
 body {
     @apply bg-black text-white;
 }
