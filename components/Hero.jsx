@@ -16,7 +16,11 @@ const anton = Anton({
 export default function Hero() {
     return (
         <>
-            <div className={`bg-[url(/hero.jpg)] bg-cover bg-center md:bg-cover bg-no-repeat h-screen flex justify-center items-center`}>
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.4 }}
+                className={`bg-[url(/hero.jpg)] bg-cover bg-center md:bg-cover bg-no-repeat h-screen flex justify-center items-center`}>
                 {/* <div className='fixed -z-99 w-screen h-screen'>
                 <iframe frameborder="0" height="100%" width="100%"
                     src="https://youtube.com/embed/cd-myPLMXbU?autoplay=1&showinfo=0&autohide=1&controls=0&start=18&mute=1" allowfullscreen referrerPolicy="strict-origin-when-cross-origin">
@@ -28,16 +32,16 @@ export default function Hero() {
                             <motion.h1
                                 initial={{ opacity: 0, y: 50 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.4, delay: 0.5}}
+                                transition={{ duration: 0.4, delay: 0.5 }}
                                 className={`${pricedown.className} text-5xl md:text-8xl`}>
                                 Hacknovate 5
                             </motion.h1>
                             <motion.p
                                 initial={{ opacity: 0, y: 50 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.4, delay: 0.8}}
-                                className='text-lg md:text-2xl text-center md:text-left'>
-                                aajao saare
+                                transition={{ duration: 0.4, delay: 0.8 }}
+                                className={`text-lg md:text-2xl text-center md:text-left ${anton.className}`}>
+                                Code like a pro, Hack like a heist
                             </motion.p>
                         </div>
                         <motion.div
@@ -59,7 +63,7 @@ export default function Hero() {
                         </motion.div>
                     </div>
                 </div>
-            </div >
+            </motion.div >
         </>
     )
 }
