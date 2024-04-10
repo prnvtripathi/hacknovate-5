@@ -1,4 +1,5 @@
 import About from '@/components/About';
+import Banner from '@/components/Banner';
 import CountdownTimer from '@/components/Countdown';
 import FAQs from '@/components/FAQs';
 import Footer from '@/components/Footer';
@@ -24,6 +25,7 @@ export default function Home() {
         <Hero />
         <About />
         <FAQs />
+        <Banner />
         <Footer />
       </main>
     </>

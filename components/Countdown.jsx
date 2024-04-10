@@ -1,4 +1,3 @@
-"use client"
 import { useEffect, useState } from 'react';
 import { Rubik_Mono_One } from "next/font/google";
 
@@ -48,7 +47,6 @@ const CountdownTimer = () => {
                 </div>
             </div>
             <div className="text-3xl sm:text-4xl md:text-5xl">{countdown}</div>
-
         </div>
     );
 };

@@ -54,10 +54,10 @@ const Navbar = () => {
     const activeLink = "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit bg-gradient-to-r from-[#488F21] to-[#FFF] bg-clip-text text-transparent border-b-2 border-b-[#488F21]"
     return (
         <>
-            <div className={`bg-black text-white p-4 flex justify-between items-center flex-wrap sticky md:fixed w-full z-50 bg-opacity-50 backdrop-blur-lg ${roboto.className}`}>
-                <div className="">
-                    <Image src="/gta5.svg" width={250} height={50} />
-                </div>
+            <div className={`bg-black text-white py-3 px-4 flex justify-between items-center flex-wrap sticky md:fixed w-full z-50 bg-opacity-50 backdrop-blur-lg ${roboto.className}`}>
+                <Link className="" href={`/`}>
+                    <Image src="/logo.svg" width={200} height={50} />
+                </Link>
 
 
                 {/* Menu button for mobile devices */}

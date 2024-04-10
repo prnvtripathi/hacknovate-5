@@ -4,13 +4,14 @@ import { Anton } from 'next/font/google'
 import { FaDiscord } from "react-icons/fa6"
 import { motion } from 'framer-motion'
 import CountdownTimer from './Countdown'
+import Image from 'next/image'
 
 const pricedown = localFont({
     src: './../assets/fonts/pricedown.ttf',
 })
 
 const anton = Anton({
-    subsets: ['latin'],
+    subsets: ['latin-ext'],
     weight: ["400"],
 })
 
@@ -25,15 +26,22 @@ export default function Hero() {
                 <div className='bg-gradient-to-t from-black to-transparent md:bg-gradient-to-r md:from-black md:to-transparent h-screen w-screen flex flex-col md:flex-row items-center justify-evenly'>
                     <div className='text-white flex flex-col gap-6 items-center md:items-start'>
                         <div className='flex flex-col text-center md:text-left'>
-                            <motion.h1
+                            <motion.div
+                                initial={{ opacity: 0, y: 50 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.4, delay: 0.2 }}
+                            >
+                                <Image src='/abesit.svg' width={120} height={10} />
+                            </motion.div>
+                            <motion.div
                                 initial={{ opacity: 0, y: 50 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.4, delay: 0.5 }}
                                 className={`${pricedown.className} text-5xl md:text-8xl`}>
-                                Hacknovate 5
-                            </motion.h1>
+                                <Image src='/logo.svg' width={500} height={10} />
+                            </motion.div>
                             <motion.p
-                                initial={{ opacity: 0, y: 50 }}g
+                                initial={{ opacity: 0, y: 50 }} g
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.4, delay: 0.8 }}
                                 className={`text-lg md:text-2xl text-center md:text-left ${anton.className}`}>
@@ -61,7 +69,7 @@ export default function Hero() {
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.4, delay: 1.8 }}
+                        transition={{ duration: 0.4, delay: 1.9 }}
                         className='bg-black bg-opacity-30 backdrop-blur-lg p-4 rounded-lg'>
                         <CountdownTimer />
                     </motion.div>
