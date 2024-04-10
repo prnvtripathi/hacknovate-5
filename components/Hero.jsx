@@ -20,14 +20,9 @@ export default function Hero() {
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 0.4 }}
+                transition={{ duration: 0.5 }}
                 className={`bg-[url(/hero.jpg)] bg-cover bg-center md:bg-cover bg-no-repeat h-screen flex justify-center items-center`}>
-                {/* <div className='fixed -z-99 w-screen h-screen'>
-                <iframe frameborder="0" height="100%" width="100%"
-                    src="https://youtube.com/embed/cd-myPLMXbU?autoplay=1&showinfo=0&autohide=1&controls=0&start=18&mute=1" allowfullscreen referrerPolicy="strict-origin-when-cross-origin">
-                </iframe>
-            </div> */}
-                <div className='bg-gradient-to-t from-black to-transparent md:bg-gradient-to-r md:from-black md:to-transparent h-screen w-screen flex flex-col md:flex-row items-center justify-around'>
+                <div className='bg-gradient-to-t from-black to-transparent md:bg-gradient-to-r md:from-black md:to-transparent h-screen w-screen flex flex-col md:flex-row items-center justify-evenly'>
                     <div className='text-white flex flex-col gap-6 items-center md:items-start'>
                         <div className='flex flex-col'>
                             <motion.h1
@@ -52,7 +47,7 @@ export default function Hero() {
                             className={`flex flex-col md:flex-row gap-2 md:gap-x-8 w-11/12 ${anton.className}`}>
                             <Link href='/'>
                                 <button className='bg-transparent w-full outline outline-1 py-3 px-7 rounded hover:bg-white hover:text-black transition-colors'>
-                                    PRE REGISTER
+                                    PRE-REGISTER
                                 </button>
                             </Link>
                             <Link href='/'>
