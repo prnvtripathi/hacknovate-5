@@ -45,12 +45,12 @@ export default function Hero() {
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.4, delay: 1.3 }}
                             className={`flex flex-col md:flex-row gap-2 md:gap-x-8 w-11/12 ${anton.className}`}>
-                            <Link href='/'>
+                            <Link href='https://hacknovate5.devfolio.co/'>
                                 <button className='bg-transparent w-full outline outline-1 py-3 px-7 rounded hover:bg-white hover:text-black transition-colors'>
                                     PRE-REGISTER
                                 </button>
                             </Link>
-                            <Link href='/'>
+                            <Link href='https://discord.gg/kaGJwHqW8t'>
                                 <button className='bg-transparent w-full outline outline-1 py-3 px-7 rounded hover:bg-white hover:text-black transition-colors flex items-center justify-center gap-2'>
                                     <span className='text-xl'><FaDiscord /></span>
                                     JOIN DISCORD
