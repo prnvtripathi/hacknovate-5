@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Image from "next/image";
 // import AboutImg from "@/assets/images/aboutSide.png";
 import { Roboto } from 'next/font/google';
+import Heading from "./Heading";
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -25,9 +26,9 @@ const About = () => {
       </div>
 
       <div className="flex flex-col w-full md:w-2/3 px-5 text-left">
-        <h2 className={`${pricedown.className} text-5xl md:text-7xl`}>
+        <Heading>
           What is Hacknovate 5?
-        </h2>
+        </Heading>
 
         <div className={`text-base flex flex-col gap-5 py-4 ${roboto.className}`}>
           <span>
