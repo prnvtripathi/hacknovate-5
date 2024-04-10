@@ -33,7 +33,7 @@ export default function Hero() {
                                 Hacknovate 5
                             </motion.h1>
                             <motion.p
-                                initial={{ opacity: 0, y: 50 }}
+                                initial={{ opacity: 0, y: 50 }}g
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.4, delay: 0.8 }}
                                 className={`text-lg md:text-2xl text-center md:text-left ${anton.className}`}>
