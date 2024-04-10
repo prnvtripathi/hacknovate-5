@@ -1,10 +1,16 @@
 import React from "react";
 import localFont from "next/font/local";
 import Image from "next/image";
-import AboutImg from "@/assets/images/aboutSide.png";
+// import AboutImg from "@/assets/images/aboutSide.png";
+import { Roboto } from 'next/font/google';
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ["100", "300", "400", "500", "700", "900"],
+})
 
 const pricedown = localFont({
-    src: './../assets/fonts/pricedown.ttf',
+  src: './../assets/fonts/pricedown.ttf',
 })
 
 const About = () => {
@@ -14,16 +20,16 @@ const About = () => {
     >
       <div className="md:w-1/3">
         <div className="hidden md:block">
-          <Image src={AboutImg} alt="err" width={600} height={600} />
+          <img src="x" alt="err" width={600} height={600} />
         </div>
       </div>
 
       <div className="flex flex-col w-full md:w-2/3 px-5 text-left">
-        <div className={`text-5xl font-bold ${pricedown.className} `}>
-          What is Hacknovate 5.0 ?
-        </div>
+        <h2 className={`${pricedown.className} text-5xl md:text-7xl`}>
+          What is Hacknovate 5?
+        </h2>
 
-        <div className="text-base flex flex-col gap-5 py-4">
+        <div className={`text-base flex flex-col gap-5 py-4 ${roboto.className}`}>
           <span>
             After the triumphant success of four consecutive years of
             Hacknovate, ABES Institute of Technology proudly presents the
