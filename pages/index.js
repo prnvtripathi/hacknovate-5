@@ -1,4 +1,5 @@
 import About from '@/components/About';
+import CountdownTimer from '@/components/Countdown';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import localFont from 'next/font/local'
@@ -12,6 +13,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
+      <CountdownTimer />
       <About/>
     </div>
   );

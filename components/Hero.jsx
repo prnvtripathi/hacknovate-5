@@ -36,7 +36,7 @@ export default function Hero() {
                                 initial={{ opacity: 0, y: 50 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.4, delay: 0.8}}
-                                className='text-lg md:text-2xl'>
+                                className='text-lg md:text-2xl text-center md:text-left'>
                                 aajao saare
                             </motion.p>
                         </div>
