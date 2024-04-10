@@ -3,16 +3,18 @@ import Heading from './Heading'
 
 const Price = () => {
   return (
+
     <div>
         
         <Heading>Prices</Heading>
 
-        <div className='my-4 flex flex-row justify-evenly'>
+        <div className='my-4 flex flex-col sm:flex-row justify-evenly overflow-y-auto scroll-snap-y-mandatory'>
 
-        <div className="bg-[url(/hero.jpg)]  bg-cover bg-center h-screen flex items-center justify-center w-2/5 rounded-md border flex-col " >
-          
-        <img src="./Frame 2.jpg" alt="reload" className='flex justify-center align-middle items-center border border-gray-700 rounded-md w-full sm:w-3/4 md:w-1/2' />
+    <div className="bg-[url(/hero.jpg)] bg-cover bg-center h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col scroll-snap-start" >
 
+
+
+<img src="./Frame 2.jpg" alt="reload" className='flex justify-center align-middle items-center border border-gray-700 rounded-md w-full md:w-3/4 lg:w-1/2' />
           <div>
           <Heading>Hacknovate Online</Heading>
           <ul className='my-3 flex flex-col'>
@@ -29,11 +31,11 @@ const Price = () => {
             
         </div>
 
-        
-        <div className="bg-[url(/map2.jpeg)]   bg-center h-screen flex items-center justify-center w-2/5 rounded-md border flex-col .bg-50" >
-          
-        <img src="./Frame 2.jpg" alt="reload" className='flex justify-center align-middle items-center border border-gray-700 rounded-md w-full sm:w-3/4 md:w-1/2' />
 
+        <div className="bg-[url(/map2.jpeg)] bg-center h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col .bg-50 scroll-snap-start" >
+
+          
+        <img src="./Frame 2.jpg" alt="reload" className='flex justify-center align-middle items-center border border-gray-700 rounded-md w-full md:w-3/4 lg:w-1/2' />
           <div>
           <Heading>Hacknovate Offline</Heading>
           <ul className='my-3 flex flex-col'>
