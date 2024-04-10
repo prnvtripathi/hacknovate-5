@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { Anton } from 'next/font/google'
 import { FaDiscord } from "react-icons/fa6"
 import { motion } from 'framer-motion'
+import CountdownTimer from './Countdown'
 
 const pricedown = localFont({
     src: './../assets/fonts/pricedown.ttf',
@@ -26,8 +27,8 @@ export default function Hero() {
                     src="https://youtube.com/embed/cd-myPLMXbU?autoplay=1&showinfo=0&autohide=1&controls=0&start=18&mute=1" allowfullscreen referrerPolicy="strict-origin-when-cross-origin">
                 </iframe>
             </div> */}
-                <div className='bg-gradient-to-t from-black to-transparent md:bg-gradient-to-r md:from-black md:to-transparent h-screen w-screen flex items-center justify-center'>
-                    <div className='text-white flex w-full md:w-11/12 flex-col gap-6 items-center md:items-start'>
+                <div className='bg-gradient-to-t from-black to-transparent md:bg-gradient-to-r md:from-black md:to-transparent h-screen w-screen flex flex-col md:flex-row items-center justify-around'>
+                    <div className='text-white flex flex-col gap-6 items-center md:items-start'>
                         <div className='flex flex-col'>
                             <motion.h1
                                 initial={{ opacity: 0, y: 50 }}
@@ -61,6 +62,9 @@ export default function Hero() {
                                 </button>
                             </Link>
                         </motion.div>
+                    </div>
+                    <div className='bg-black bg-opacity-30 backdrop-blur-lg p-4 rounded-lg'>
+                        <CountdownTimer />
                     </div>
                 </div>
             </motion.div >

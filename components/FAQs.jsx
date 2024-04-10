@@ -24,7 +24,7 @@ const data = [
 export default function FAQs() {
     return (
 
-        <div className="w-full md:w-11/12 mx-auto">
+        <div className="w-full md:w-11/12 mx-auto mt-2 mb-12">
             <div>
                 <Heading>faQs</Heading>
             </div>

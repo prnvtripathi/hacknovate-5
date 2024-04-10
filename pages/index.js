@@ -1,6 +1,7 @@
 import About from '@/components/About';
 import CountdownTimer from '@/components/Countdown';
 import FAQs from '@/components/FAQs';
+import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import localFont from 'next/font/local'
@@ -21,9 +22,9 @@ export default function Home() {
       <main>
         <Navbar />
         <Hero />
-        <CountdownTimer />
         <About />
         <FAQs />
+        <Footer />
       </main>
     </>
 
