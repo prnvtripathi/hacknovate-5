@@ -11,7 +11,7 @@ const CountdownTimer = () => {
     const [countdown, setCountdown] = useState('');
 
     const calculateCountdown = () => {
-        const hackathonDate = new Date('2024-05-10T12:00:00').getTime();
+        const hackathonDate = new Date('2024-05-10T09:00:00').getTime();
         const now = new Date().getTime();
         const distance = hackathonDate - now;
 
@@ -42,7 +42,7 @@ const CountdownTimer = () => {
 
     return (
         <div className={`flex w-full justify-center items-center py-12 bg-black flex-col gap-4 ${rubik.className}`}>
-            <div className="text-center text-sm md:text-md hover:text-white transition-all hover:rotate-12">
+            <div className="text-center text-sm md:text-md hover:text-white transition-all hover:scale-90">
                 <div>
                     HACKATHON BEGINS IN
                 </div>
