@@ -1,3 +1,4 @@
+import About from '@/components/About';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import localFont from 'next/font/local'
@@ -11,6 +12,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Hero />
+      <About/>
     </div>
   );
 }
