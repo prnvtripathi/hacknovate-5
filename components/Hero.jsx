@@ -63,9 +63,13 @@ export default function Hero() {
                             </Link>
                         </motion.div>
                     </div>
-                    <div className='bg-black bg-opacity-30 backdrop-blur-lg p-4 rounded-lg'>
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.4, delay: 1.8 }}
+                        className='bg-black bg-opacity-30 backdrop-blur-lg p-4 rounded-lg'>
                         <CountdownTimer />
-                    </div>
+                    </motion.div>
                 </div>
             </motion.div >
         </>
