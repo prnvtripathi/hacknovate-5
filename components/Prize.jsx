@@ -22,10 +22,10 @@ const Prizes = () => {
       <div className='my-4 flex flex-col sm:flex-row gap-y-6 justify-evenly overflow-y-auto scroll-snap-y-mandatory'>
 
 
-        <div className="bg-[url(/map2.jpeg)] bg-center h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col .bg-50 scroll-snap-start" >
+        <div className="bg-[url(/bg.jpg)] bg-cover h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col .bg-50 scroll-snap-start" >
 
 
-          <img src="./Frame 2.jpg" alt="reload" className='flex justify-center align-middle items-center border border-gray-700 rounded-md w-full md:w-3/4 lg:w-1/2' />
+          <img src="/collage.svg" alt="reload" className='flex justify-center align-middle items-center border border-gray-700 rounded-md w-full md:w-3/4 lg:w-1/2' />
           <div>
             <Heading>Hacknovate Offline</Heading>
             <ul className={`my-3 flex flex-col ${anton.className} tracking-widest`}>
@@ -43,7 +43,7 @@ const Prizes = () => {
 
 
 
-          <img src="./Frame 2.jpg" alt="reload" className='flex justify-center align-middle items-center border border-gray-700 rounded-md w-full md:w-3/4 lg:w-1/2' />
+          <img src="/collage.svg" alt="reload" className='flex justify-center align-middle items-center border border-gray-700 rounded-md w-full md:w-3/4 lg:w-1/2' />
           <div>
             <Heading>Hacknovate Online</Heading>
             <ul className={`my-3 flex flex-col ${anton.className} tracking-widest`}>
