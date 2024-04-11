@@ -1,7 +1,7 @@
 import React from "react";
 import localFont from "next/font/local";
 import Image from "next/image";
-// import AboutImg from "@/assets/images/aboutSide.png";
+import AboutImg from '@/public/AboutIMG.png'
 import { Roboto } from 'next/font/google';
 import Heading from "./Heading";
 import { motion } from 'framer-motion'
@@ -22,11 +22,12 @@ const About = () => {
       whileInView={{ opacity: 1, x: 0}}
       transition={{ duration: 0.5 }}
       viewport={{ once: true, amount: 0.5}}
-      className={`text-6xl bg-[url(/about.png)] bg-cover md:bg-cover bg-no-repeat flex justify-center items-center w-full`}
+      className={`text-6xl bg-[url(/aboutBG.jpg)] bg-cover md:bg-cover bg-no-repeat flex justify-center items-center w-full py-20`}
     >
       <div className="md:w-1/3">
         <div className="hidden md:block">
-          <img src="x" alt="err" width={600} height={600} />
+          {/* Img to be changed with some techy image */}
+          <Image src={AboutImg} alt="About Image" height={600} />
         </div>
       </div>
 
