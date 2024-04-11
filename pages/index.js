@@ -5,7 +5,7 @@ import FAQs from '@/components/FAQs';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
-import Price from '@/components/Price';
+import Prizes from '@/components/Prize';
 import localFont from 'next/font/local'
 import Head from 'next/head';
 
@@ -26,7 +26,7 @@ export default function Home() {
         <Hero />
         <About />
         <FAQs />
-        <Price/>
+        <Prizes />
         <Banner />
         <Footer />
       </main>
