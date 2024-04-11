@@ -27,7 +27,7 @@ export default function Home() {
         <Prizes />
         <Themes />
         <FAQs />
-        <Banner />
+        {/* <Banner /> */}
       </main>
     </>
 

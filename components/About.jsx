@@ -38,26 +38,12 @@ const About = () => {
 
         <div className={`text-base flex flex-col gap-5 py-4 ${roboto.className}`}>
           <span>
-            After the triumphant success of four consecutive years of
-            Hacknovate, ABES Institute of Technology proudly presents the
-            much-anticipated HACKNOVATE 5.0!
+          Hacknovate 5.0 will gather brightest programmers, engineers, architects, designers, and business visionaries. Our goal is to create a space where the brightest minds may collaborate to develop the most creative solutions. The Hybrid Mode of Hacknovate 5.0 will pave the way for passionate youngsters who can't join us in the offline mode.
+
           </span>
 
           <span>
-            Hacknovate 5.0 aims to bring together the most brilliant
-            programmers, engineers, architects, designers, and business
-            visionaries for another extraordinary event. Our primary objective
-            is to foster an environment where the sharpest minds collaborate to
-            conceive the most innovative solutions.
-          </span>
-
-          <span>
-            Building upon the achievements of its predecessors, Hacknovate 5.0
-            will continue to be a nexus of creativity, pushing the boundaries of
-            what is possible in the realms of technology and innovation. In
-            recognition of the changing times, the Hybrid Mode of Hacknovate 5.0
-            will be implemented, opening doors for passionate young minds who
-            are unable to join us in person
+          Hacknovate 5.0 aims to bring together the most brilliant programmers, engineers, architects, designers, and business visionaries for another extraordinary event. Our primary objective is to foster an environment where the sharpest minds collaborate to conceive the most innovative solutions.
           </span>
         </div>
       </div>
