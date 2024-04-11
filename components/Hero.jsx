@@ -55,7 +55,7 @@ export default function Hero() {
                             className={`flex flex-col md:flex-row gap-2 md:gap-x-8 w-11/12 ${anton.className}`}>
                             <Link href='https://hacknovate5.devfolio.co/'>
                                 <button className='bg-transparent w-full outline outline-1 py-3 px-7 rounded hover:bg-white hover:text-black transition-colors'>
-                                    PRE-REGISTER
+                                    REGISTER
                                 </button>
                             </Link>
                             <Link href='https://discord.gg/kaGJwHqW8t'>

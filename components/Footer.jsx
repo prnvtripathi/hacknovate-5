@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaYoutube,
-  FaHashnode,
-  FaTwitter,
-  FaInstagram,
-} from "react-icons/fa6";
+import { FaLinkedin, FaYoutube, FaTwitter, FaInstagram } from "react-icons/fa6";
 import { IoLogoDiscord } from "react-icons/io5";
 import { MdAlternateEmail } from "react-icons/md";
 import { Anton } from "next/font/google";
@@ -26,8 +19,8 @@ function Footer() {
         <div className="flex md:flex-row flex-col">
           <div className="grid grid-cols-1 grid-rows-[0.8fr_0.2fr] lg:grid-cols-2 lg:grid-rows-1 justify-items-center lg:justify-items-end">
             <div className="grid justify-items-center lg:justify-items-start w-[100%]">
-                
-              <div className="flex gap-10 flex-row items-center">
+
+              <div className="flex gap-10 flex-col md:flex-row items-center">
                 <Image src="/abesit.svg" width={120} height={10} />
                 <Image
                   src="/logo.svg"
