@@ -33,7 +33,7 @@ const About = () => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true, amount: 0.5 }}
-      className={`text-6xl bg-[url(/aboutBG.jpg)] bg-cover md:bg-cover bg-no-repeat flex flex-col justify-center items-center w-full py-20 gap-10`}
+      className={`text-6xl bg-[url(/aboutBG.webp)] bg-cover md:bg-cover bg-no-repeat flex flex-col justify-center items-center w-full py-20 gap-10`}
     >
       <div className="flex">
         <div className="md:w-1/3">

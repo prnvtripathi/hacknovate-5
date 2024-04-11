@@ -14,23 +14,23 @@ const Themes = () => {
     const ThemesArray = [
         {
             name: 'AR-VR',
-            url: '/themes/1.jpg',
+            url: '/themes/1.webp',
         },
         {
             name: 'AI & Machine Learning',
-            url: '/themes/2.jpg',
+            url: '/themes/2.webp',
         },
         {
             name: 'Cyber Security',
-            url: '/themes/3.jpg',
+            url: '/themes/3.webp',
         },
         {
             name: 'Web3 & Blockchain',
-            url: '/themes/4.jpg',
+            url: '/themes/4.webp',
         },
         {
             name: 'Open Innovation',
-            url: '/themes/5.jpg',
+            url: '/themes/5.webp',
         },
     ];
     return (
