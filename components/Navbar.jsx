@@ -25,18 +25,18 @@ const navbarItems = [
         name: "Sponsors",
         link: "#sponsors",
     },
+    // {
+    //     id: 4,
+    //     name: "Team",
+    //     link: "/team",
+    // },
     {
         id: 4,
-        name: "Team",
-        link: "/team",
+        name: "Events",
+        link: "/events",
     },
     {
         id: 5,
-        name: "Events",
-        link: "#events",
-    },
-    {
-        id: 6,
         name: "Mentor/Judges",
         link: "/mentor",
     },
@@ -106,14 +106,14 @@ const Navbar = () => {
                         } md:flex md:items-center md:gap-6 mx-2 md:ml-4 hidden`}
                 >
                     {navbarItems.map((item) => (
-                        <a
+                        <Link
                             href={item.link}
                             key={item.id}
                             className={pathname.includes(item.link) ? activeLink : inactiveLink}
                         >
                             <span>{item.name}</span>
                             <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-[#FFF] to-[#488F21] rounded-full transition-all group-hover:w-full"></span>
-                        </a>
+                        </Link>
                     ))}
                 </div>
 

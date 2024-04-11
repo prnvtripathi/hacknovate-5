@@ -21,13 +21,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Navbar />
         <Hero />
         <About />
         <Prizes />
         <FAQs />
         <Banner />
-        <Footer />
       </main>
     </>
 
