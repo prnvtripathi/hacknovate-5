@@ -1,6 +1,7 @@
 import Heading from './Heading'
 import { motion } from 'framer-motion'
 import { Anton } from 'next/font/google'
+import Link from 'next/link';
 
 const anton = Anton({
   subsets: ["latin-ext"],
@@ -15,7 +16,7 @@ const Prizes = () => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
-      className='w-11/12 mx-auto'>
+      className='w-11/12 mx-auto py-12'>
 
       <Heading>Prizes</Heading>
 
@@ -33,13 +34,14 @@ const Prizes = () => {
               <li className='font-semibold text-2xl'>Runner Up: ₹15,000 </li>
             </ul>
           </div>
-
-          <button className={`px-6 py-2 text-sm sm:px-12 sm:py-3 sm:text-base md:px-24 md:py-4 md:text-xl hover:bg-white hover:text-black justify-center font-semibold border border-white m-5 backdrop-blur-sm rounded ${anton.className}`}>Register Now</button>
-
+          
+          <Link href='https://hacknovate5.devfolio.co/'>
+            <button className={`px-6 py-2 text-sm sm:px-12 sm:py-3 sm:text-base md:px-24 md:py-4 md:text-xl hover:bg-white hover:text-black justify-center font-semibold border border-white m-5 backdrop-blur-sm rounded ${anton.className}`}>Register Now</button>
+          </Link>
 
 
         </div>
-        
+
         <div className="bg-[url(/hero.jpg)] bg-cover bg-center h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col scroll-snap-start" >
 
 
@@ -53,9 +55,9 @@ const Prizes = () => {
             </ul>
           </div>
 
-
-          <button className={`px-6 py-2 text-sm sm:px-12 sm:py-3 sm:text-base md:px-24 md:py-4 md:text-xl hover:bg-white hover:text-black justify-center font-semibold border border-white m-5 backdrop-blur-sm rounded ${anton.className}`}>Register Now</button>
-
+          <Link href='https://hacknovate5.devfolio.co/'>
+            <button className={`px-6 py-2 text-sm sm:px-12 sm:py-3 sm:text-base md:px-24 md:py-4 md:text-xl hover:bg-white hover:text-black justify-center font-semibold border border-white m-5 backdrop-blur-sm rounded ${anton.className}`}>Register Now</button>
+          </Link>
 
 
         </div>

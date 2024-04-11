@@ -30,7 +30,7 @@ export default function FAQs() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true, amount: 0.5 }}
-            className="w-11/12 mx-auto mt-20 md:mt-2 mb-12">
+            className="w-11/12 mx-auto py-12">
             <div>
                 <Heading>faQs</Heading>
             </div>

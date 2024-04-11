@@ -15,7 +15,7 @@ function Footer() {
             <footer className={`px-6 sm:px-12 md:px-24 py-10 border-white gap-x-[25rem] mt-9 bg-black ${anton.className} tracking-widest border-t border-gray-500`}>
                 <div className='grid grid-cols-1 grid-rows-[0.8fr_0.2fr] lg:grid-cols-2 lg:grid-rows-1 justify-items-center lg:justify-items-end'>
                     <div className='grid justify-items-center lg:justify-items-start w-[100%]'>
-                        <div className='flex gap-10'>
+                        <div className='flex gap-10 flex-col md:flex-row items-center'>
                         <Image src='/abesit.svg' width={120} height={10} />
                         <Image src="/logo.svg" alt="logo" width={200} height={50} className='mb-2'/>
                         
