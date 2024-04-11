@@ -1,6 +1,5 @@
 import About from '@/components/About';
 import Banner from '@/components/Banner';
-import CountdownTimer from '@/components/Countdown';
 import FAQs from '@/components/FAQs';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
