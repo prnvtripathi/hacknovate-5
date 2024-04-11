@@ -39,6 +39,7 @@ const Prizes = () => {
 
 
         </div>
+        
         <div className="bg-[url(/hero.jpg)] bg-cover bg-center h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col scroll-snap-start" >
 
 
@@ -63,9 +64,9 @@ const Prizes = () => {
 
       </div>
 
-      <div className='flex justify-center items-center text-center border border-white w-full sm:w-3/4 md:w-2/5 mx-auto my-5 py-4'>
+      {/* <div className='flex justify-center items-center text-center border border-white w-full sm:w-3/4 md:w-2/5 mx-auto my-5 py-4'>
         <h2 className={`font-bold text-xl ${anton.className} tracking-wider`}>Winning Stakes: ₹500K and Beyond!</h2>
-      </div>
+      </div> */}
 
 
     </motion.div>
