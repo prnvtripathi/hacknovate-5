@@ -14,7 +14,7 @@ const Prizes = () => {
       initial={{ opacity: 0, x: -100 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
-      viewport={{ once: true, threshold: 0.5, amount: 0.5 }}
+      viewport={{ once: true, amount: 0.5 }}
       className='w-11/12 mx-auto'>
 
       <Heading>Prizes</Heading>
