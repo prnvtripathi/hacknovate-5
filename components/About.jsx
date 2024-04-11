@@ -1,7 +1,7 @@
 import React from "react";
 import localFont from "next/font/local";
 import Image from "next/image";
-import AboutImg from "@/public/AboutIMG.png";
+import AboutImg from "@/public/AboutIMG.webp";
 import { Roboto } from "next/font/google";
 import Heading from "./Heading";
 import { IoIosStats } from "react-icons/io";

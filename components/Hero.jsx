@@ -32,7 +32,7 @@ export default function Hero() {
                                 transition={{ duration: 0.4, delay: 0.2 }}
                                 className='mx-auto mb-3 md:mb-0 md:mx-0'
                             >
-                                <Image src='/abesit.svg' width={120} height={10} />
+                                <Image src='/abesit.webp' width={120} height={10} />
                             </motion.div>
                             <motion.div
                                 initial={{ opacity: 0, y: 50 }}

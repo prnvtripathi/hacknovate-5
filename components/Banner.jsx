@@ -10,7 +10,7 @@ export default function Banner() {
             viewport={{ once: true, amount: 0.5 }}
             className="">
             {/* TO be compressed */}
-            <Image src="/banner.svg" alt="banner" width={1200} height={540} className="mx-auto rounded-lg w-11/12" />
+            <Image src="/banner.png" alt="banner" width={1200} height={540} className="mx-auto rounded-lg w-11/12" />
         </motion.section>
     )
 }

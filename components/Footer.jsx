@@ -28,7 +28,7 @@ function Footer() {
             <div className="grid justify-items-center lg:justify-items-start w-[100%]">
                 
               <div className="flex gap-10 flex-row items-center">
-                <Image src="/abesit.svg" width={120} height={10} />
+                <Image src="/abesit.webp" width={120} height={10} />
                 <Image
                   src="/logo.svg"
                   alt="logo"
