@@ -22,7 +22,7 @@ export default function Hero() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
-                className={`bg-[url(/hero.jpg)] bg-cover bg-center md:bg-cover bg-no-repeat h-screen flex justify-center items-center`}>
+                className={`bg-[url(/hero.jpg)] bg-cover bg-center md:bg-cover bg-no-repeat h-screen flex justify-center items-center transition-all`}>
                 <div className='bg-gradient-to-t from-black to-transparent md:bg-gradient-to-r md:from-black md:to-transparent h-screen w-screen flex flex-col md:flex-row items-center justify-evenly'>
                     <div className='text-white flex flex-col gap-6 items-center md:items-start'>
                         <div className='flex flex-col text-center md:text-left'>
@@ -30,15 +30,15 @@ export default function Hero() {
                                 initial={{ opacity: 0, y: 50 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.4, delay: 0.2 }}
+                                className='mx-auto mb-3 md:mb-0 md:mx-0'
                             >
                                 <Image src='/abesit.svg' width={120} height={10} />
                             </motion.div>
                             <motion.div
                                 initial={{ opacity: 0, y: 50 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.4, delay: 0.5 }}
-                                className={`${pricedown.className} text-5xl md:text-8xl`}>
-                                <Image src='/logo.svg' width={500} height={10} />
+                                transition={{ duration: 0.4, delay: 0.5 }}>
+                                <Image src='/logo.svg' width={500} height={10} className='px-1' />
                             </motion.div>
                             <motion.p
                                 initial={{ opacity: 0, y: 50 }} g

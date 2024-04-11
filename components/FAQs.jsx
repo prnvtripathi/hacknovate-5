@@ -1,5 +1,6 @@
 import { Anton } from 'next/font/google'
 import Heading from './Heading'
+import { motion } from 'framer-motion'
 
 const anton = Anton({
     subsets: ['latin'],
@@ -24,7 +25,12 @@ const data = [
 export default function FAQs() {
     return (
 
-        <div className="w-full md:w-11/12 mx-auto mt-2 mb-12">
+        <motion.div
+            initial={{ opacity: 0, x: -100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true, threshold: 0.5, amount: 0.5 }}
+            className="w-11/12 mx-auto mt-20 md:mt-2 mb-12">
             <div>
                 <Heading>faQs</Heading>
             </div>
@@ -53,7 +59,7 @@ export default function FAQs() {
                     </details>
                 ))}
             </div>
-        </div>
+        </motion.div>
 
     )
 }

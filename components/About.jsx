@@ -4,6 +4,7 @@ import Image from "next/image";
 // import AboutImg from "@/assets/images/aboutSide.png";
 import { Roboto } from 'next/font/google';
 import Heading from "./Heading";
+import { motion } from 'framer-motion'
 
 const roboto = Roboto({
   subsets: ['latin'],
@@ -16,8 +17,12 @@ const pricedown = localFont({
 
 const About = () => {
   return (
-    <div
-      className={`text-6xl bg-[url(/about.png)] bg-cover md:bg-cover bg-no-repeat h-screen flex justify-center items-center w-full`}
+    <motion.div
+      initial={{ opacity: 0, x: 100}}
+      whileInView={{ opacity: 1, x: 0}}
+      transition={{ duration: 0.5 }}
+      viewport={{ once: true, threshold: 0.5, amount: 0.5}}
+      className={`text-6xl bg-[url(/about.png)] bg-cover md:bg-cover bg-no-repeat flex justify-center items-center w-full`}
     >
       <div className="md:w-1/3">
         <div className="hidden md:block">
@@ -55,7 +60,7 @@ const About = () => {
           </span>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
