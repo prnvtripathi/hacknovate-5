@@ -9,6 +9,7 @@ import { CiTrophy } from "react-icons/ci";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import { Anton } from 'next/font/google'
+import { AiOutlineTeam } from "react-icons/ai";
 
 
 
@@ -74,7 +75,7 @@ const About = () => {
         <Heading>Past Statistics</Heading>
 
         <div>
-          <div className="flex flex-col md:flex-row justify-around items-center">
+          <div className="flex flex-col md:flex-row justify-around items-center gap-20">
             <div className="flex flex-col items-center gap-5">
               <div className="bg-white p-5 rounded-full shadow-lg">
                 <IoIosStats className="text-5xl text-black" />
@@ -87,6 +88,20 @@ const About = () => {
                 end={10000}
               />
               <span className={`text-lg md:text-2xl text-center md:text-left ${anton.className}`}>Registrations</span>
+            </div>
+
+            <div className="flex flex-col items-center gap-5">
+              <div className="bg-white p-5 rounded-full shadow-lg">
+                <AiOutlineTeam className="text-5xl text-black" />
+              </div>
+              <CountUp
+                className={`text-2xl ${anton.className}`}
+                start={0}
+                duration={2}
+                suffix="+"
+                end={100}
+              />
+              <span className={`text-lg md:text-2xl text-center md:text-left ${anton.className}`}>Volunteers</span>
             </div>
 
             <div className="flex flex-col items-center gap-5">
