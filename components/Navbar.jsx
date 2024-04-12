@@ -57,7 +57,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`bg-black text-white py-3 px-4 flex justify-center md:justify-between items-center flex-wrap sticky md:fixed w-full z-50 bg-opacity-50 backdrop-blur-lg ${roboto.className}`}
+        className={`bg-black text-white py-3 px-4 flex justify-center md:justify-between items-center flex-wrap sticky md:fixed w-full z-50 bg-opacity-50 top-0 backdrop-blur-lg ${roboto.className}`}
       >
         <Link className="flex items-center justify-center" href={`/`}>
           <Image src="/logo.png" width={200} height={50} />
