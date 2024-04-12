@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  FaGithub,
-  FaLinkedin,
-  FaYoutube,
-  FaHashnode,
-  FaTwitter,
-  FaInstagram,
-} from "react-icons/fa6";
-import { IoLogoDiscord } from "react-icons/io5";
+import { FaLinkedin, FaTwitter, FaInstagram, FaDiscord } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 import { Anton } from "next/font/google";
 import Image from "next/image";
@@ -21,16 +13,17 @@ function Footer() {
   return (
     <>
       <footer
+        id="contact"
         className={`px-6 sm:px-12 md:px-24 py-10 border-white gap-x-[25rem] mt-9 bg-black ${anton.className} tracking-widest border-t border-gray-500`}
       >
         <div className="flex md:flex-row flex-col">
           <div className="grid grid-cols-1 grid-rows-[0.8fr_0.2fr] lg:grid-cols-2 lg:grid-rows-1 justify-items-center lg:justify-items-end">
             <div className="grid justify-items-center lg:justify-items-start w-[100%]">
-                
-              <div className="flex gap-10 flex-row items-center">
-                <Image src="/abesit.webp" width={120} height={10} />
+
+              <div className="flex gap-10 flex-col md:flex-row items-center">
+                <Image src="/abesit.svg" width={120} height={10} />
                 <Image
-                  src="/logo.svg"
+                  src="/logo.png"
                   alt="logo"
                   width={200}
                   height={50}
@@ -50,11 +43,18 @@ function Footer() {
 
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center items-center gap-4">
-                    <FaTwitter className="text-gray-500 transition-all text-3xl hover:text-blue-500 hover:scale-90" />
-                    <FaLinkedin className="text-gray-500 transition-all text-3xl hover:text-indigo-400 hover:scale-90" />
-                    <IoLogoDiscord className="text-gray-500 transition-all text-3xl hover:text-indigo-600 hover:scale-90" />
-                    <FaYoutube className="text-gray-500 transition-all text-3xl hover:text-red-600 hover:scale-90" />
-                    <FaInstagram className="text-gray-500 transition-all text-3xl hover:text-pink-600 hover:scale-90" />
+                    <Link href="https://twitter.com/hacknovate">
+                      <FaTwitter className="text-gray-500 transition-all text-3xl hover:text-blue-500 hover:scale-90" />
+                    </Link>
+                    <Link href="https://www.linkedin.com/company/hacknovate/about/">
+                      <FaLinkedin className="text-gray-500 transition-all text-3xl hover:text-indigo-400 hover:scale-90" />
+                    </Link>
+                    <Link href="https://discord.gg/aHSFWKjb">
+                      <FaDiscord className="text-gray-500 transition-all text-3xl hover:text-indigo-600 hover:scale-90" />
+                    </Link>
+                    <Link href="https://www.instagram.com/hacknovate.abesit/">
+                      <FaInstagram className="text-gray-500 transition-all text-3xl hover:text-pink-600 hover:scale-90" />
+                    </Link>
                   </div>
 
                   <div className="flex items-center justify-center gap-1">
@@ -73,10 +73,6 @@ function Footer() {
             <iframe
               width="100%"
               height="300"
-              frameborder="0"
-              scrolling="no"
-              marginheight="0"
-              marginwidth="0"
               src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=ABESIT+(Hacknovate%205.0)&amp;t=p&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             ></iframe>
           </div>

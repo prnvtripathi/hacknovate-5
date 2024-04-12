@@ -83,7 +83,7 @@ const Themes = () => {
                                     src={item.url}
                                     alt={item.name}
                                 />
-                                <p className={`text-white font-bold text-2xl px-4 absolute bottom-6 text-wrap ${anton.className} md:text-4xl`}>
+                                <p className={`text-white text-2xl px-4 absolute bottom-6 text-wrap ${anton.className} md:text-4xl`}>
                                     {item.name}
                                 </p>
                             </div>

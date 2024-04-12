@@ -13,23 +13,23 @@ const navbarItems = [
   {
     id: 1,
     name: "About",
-    link: "#about",
+    link: "/#about",
   },
   {
     id: 2,
-    name: "Prizes",
-    link: "#prizes",
+    name: "Contact Us",
+    link: "#contact",
   },
   {
     id: 3,
     name: "Sponsors",
-    link: "#sponsors",
+    link: "/#sponsors",
   },
-  // {
-  //     id: 4,
-  //     name: "Team",
-  //     link: "/team",
-  // },
+  {
+    id: 4,
+    name: "Team",
+    link: "/team",
+  },
   {
     id: 4,
     name: "Events",
@@ -37,7 +37,7 @@ const navbarItems = [
   },
   {
     id: 5,
-    name: "Mentor/Judges",
+    name: "Mentor",
     link: "/mentor",
   },
 ];
@@ -51,20 +51,20 @@ const Navbar = () => {
   };
 
   const inactiveLink =
-    "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit hover:bg-gradient-to-r hover:from-[#FFF] hover:to-[#488F21] hover:bg-clip-text hover:text-transparent";
+    "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit hover:bg-gradient-to-r hover:from-franklin-green hover:to-michael-blue hover:bg-clip-text hover:text-transparent";
   const activeLink =
-    "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit bg-gradient-to-r from-[#488F21] to-[#FFF] bg-clip-text text-transparent border-b-2 border-b-[#488F21]";
+    "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit bg-gradient-to-r from-michael-blue to-trevor-orange bg-clip-text text-transparent border-b-2 border-b-[#488F21]";
   return (
     <>
       <div
-        className={`bg-black text-white py-3 px-4 flex justify-between items-center flex-wrap sticky md:fixed w-full z-50 bg-opacity-50 backdrop-blur-lg ${roboto.className}`}
+        className={`bg-black text-white py-3 px-4 flex justify-center md:justify-between items-center flex-wrap sticky md:fixed w-full z-50 bg-opacity-50 top-0 backdrop-blur-lg ${roboto.className}`}
       >
-        <Link className="" href={`/`}>
-          <Image src="/logo.svg" width={200} height={50} />
+        <Link className="flex items-center justify-center" href={`/`}>
+          <Image src="/logo.png" width={200} height={50} />
         </Link>
 
         {/* Menu button for mobile devices */}
-        <div className="md:hidden ">
+        <div className="md:hidden">
           <button
             className="mobile-menu-button transform hover:scale-105 focus:outline-none"
             onClick={toggleMenu}
@@ -105,9 +105,8 @@ const Navbar = () => {
         </div>
 
         <div
-          className={`w-full md:w-auto ${
-            isOpen ? "flex" : "hidden"
-          } md:flex md:items-center md:gap-6 mx-2 md:ml-4 hidden`}
+          className={`w-full md:w-auto ${isOpen ? "flex" : "hidden"
+            } md:flex md:items-center md:gap-6 mx-2 md:ml-4 hidden`}
         >
           {navbarItems.map((item) => (
             <Link
@@ -118,16 +117,26 @@ const Navbar = () => {
               }
             >
               <span>{item.name}</span>
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-[#FFF] to-[#488F21] rounded-full transition-all group-hover:w-full"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-franklin-green to-michael-blue rounded-full transition-all group-hover:w-full"></span>
             </Link>
           ))}
+          <Link
+            href="mailto:hacknovate@abesit.edu.in"
+            className="text-center mx-auto mt-2 md:mx-0 md:flex hidden"
+          >
+            <button className="relative inline-flex h-8 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ABEDAB_0%,#FFA357_50%,#65B4D4_100%)]" />
+              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+                Sponsor Us
+              </span>
+            </button>
+          </Link>
         </div>
 
         {/* mobile menu items */}
         <div
-          className={`${
-            isOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0"
-          } absolute top-full text-left left-0 right-0 md:hidden transition-all duration-300 transform origin-top ease-in-out bg-black bg-opacity-90`}
+          className={`${isOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0"
+            } absolute top-full text-left left-0 right-0 md:hidden transition-all duration-300 transform origin-top ease-in-out bg-black bg-opacity-90`}
         >
           {navbarItems.map((item) => (
             <div
@@ -141,34 +150,27 @@ const Navbar = () => {
               <Link href={item.link}>{item.name}</Link>
             </div>
           ))}
-         <div className="py-3 flex justify-center">
-         <Link
-            href="mailto:hacknovate@abesit.edu.in"
-            className="text-center mx-auto mt-2 md:mx-0"
-          >
-            <button className="relative inline-flex h-8 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-                Sponsor Us
-              </span>
-            </button>
-          </Link>
-         </div>
+          <div className="py-3 flex justify-center">
+            <Link
+              href="mailto:hacknovate@abesit.edu.in"
+              className="text-center mx-auto mt-2 md:mx-0"
+            >
+              <button className="relative inline-flex h-8 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ABEDAB_0%,#FFA357_50%,#65B4D4_100%)]" />
+                <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+                  Sponsor Us
+                </span>
+              </button>
+            </Link>
+          </div>
         </div>
 
-        {/* Sponsor Button */}
-        <Link
-            href="mailto:hacknovate@abesit.edu.in"
-            className="text-center mx-auto mt-2 md:mx-0 md:flex hidden"
-          >
-            <button className="relative inline-flex h-8 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-                Sponsor Us
-              </span>
-            </button>
-          </Link>
-       
+        <div className="flex flex-row items-center justify-center gap-2">
+          {/* <img src="/aktu.png" className="w-[54px] object-contain" />
+          <img src="/nba.png" className="w-[54px] object-contain" />
+          <img src="/iic.png" className="w-[54px] object-contain" /> */}
+          <Image src="/abesit.svg" width={135} height={50} />
+        </div>
       </div>
     </>
   );
