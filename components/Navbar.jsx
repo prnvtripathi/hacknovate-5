@@ -60,7 +60,6 @@ const Navbar = () => {
         className={`bg-black text-white py-3 px-4 flex justify-center md:justify-between items-center flex-wrap sticky md:fixed w-full z-50 bg-opacity-50 backdrop-blur-lg ${roboto.className}`}
       >
         <Link className="flex items-center justify-center" href={`/`}>
-          <Image src="/abesit.svg" width={75} height={50} />
           <Image src="/logo.svg" width={200} height={50} />
         </Link>
 
@@ -167,9 +166,10 @@ const Navbar = () => {
         </div>
 
         <div className="flex flex-row items-center justify-center gap-2">
-          <img src="/aktu.png" className="w-[54px] object-contain"/>
-          <img src="/nba.png" className="w-[54px] object-contain"/>
-          <img src="/iic.png" className="w-[54px] object-contain"/>
+          {/* <img src="/aktu.png" className="w-[54px] object-contain" />
+          <img src="/nba.png" className="w-[54px] object-contain" />
+          <img src="/iic.png" className="w-[54px] object-contain" /> */}
+          <Image src="/abesit.svg" width={135} height={50} />
         </div>
       </div>
     </>

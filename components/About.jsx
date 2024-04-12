@@ -32,7 +32,7 @@ const About = () => {
       initial={{ opacity: 0, x: 100 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
-      viewport={{ once: true, amount: 0.5 }}
+      viewport={{ once: true }}
       className={`text-6xl bg-[url(/aboutBG.jpg)] bg-cover md:bg-cover bg-no-repeat flex flex-col justify-center items-center w-full py-20 gap-10`}
       id="about"
     >
@@ -48,7 +48,7 @@ const About = () => {
           <Heading>What is Hacknovate 5?</Heading>
 
           <div
-            className={`text-base flex flex-col gap-5 py-4 ${roboto.className}`}
+            className={`text-base text-center md:text-left flex flex-col gap-5 py-4 ${roboto.className}`}
           >
             <span>
               Hacknovate 5.0 will gather brightest programmers, engineers,

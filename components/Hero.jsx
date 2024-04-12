@@ -30,10 +30,10 @@ export default function Hero() {
                                 initial={{ opacity: 0, y: 50 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.4, delay: 0.2 }}
-                                className='mx-auto mb-3 md:mb-4 md:mx-0 text-center'
+                                className='mx-auto mb-3 md:mb-2 md:mx-0'
                             >
-                                <h2 className={`text-lg md:text-2xl ${anton.className}`}>ABES <span className='text-lg md:text-xl'>Institute of Technology</span></h2>
-                                <p className={`${anton.className}`}>PRESENTS</p>
+                                <h2 className={`text-lg md:text-3xl ${anton.className}`}>ABES <span className='text-lg md:text-2xl'>Institute of Technology</span></h2>
+                                <p className={`${anton.className} text-center`}>PRESENTS</p>
                             </motion.div>
                             <motion.div
                                 initial={{ opacity: 0, y: 50 }}
