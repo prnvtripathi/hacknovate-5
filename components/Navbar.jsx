@@ -51,7 +51,7 @@ const Navbar = () => {
   };
 
   const inactiveLink =
-    "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit hover:bg-gradient-to-r hover:from-trevor-orange hover:to-michael-blue hover:bg-clip-text hover:text-transparent";
+    "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit hover:bg-gradient-to-r hover:from-franklin-green hover:to-michael-blue hover:bg-clip-text hover:text-transparent";
   const activeLink =
     "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit bg-gradient-to-r from-michael-blue to-trevor-orange bg-clip-text text-transparent border-b-2 border-b-[#488F21]";
   return (
