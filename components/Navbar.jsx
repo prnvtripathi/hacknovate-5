@@ -13,23 +13,23 @@ const navbarItems = [
   {
     id: 1,
     name: "About",
-    link: "#about",
+    link: "/#about",
   },
   {
     id: 2,
     name: "Prizes",
-    link: "#prizes",
+    link: "/#prizes",
   },
   {
     id: 3,
     name: "Sponsors",
-    link: "#sponsors",
+    link: "/#sponsors",
   },
-  // {
-  //     id: 4,
-  //     name: "Team",
-  //     link: "/team",
-  // },
+  {
+    id: 4,
+    name: "Team",
+    link: "/team",
+  },
   {
     id: 4,
     name: "Events",
@@ -37,7 +37,7 @@ const navbarItems = [
   },
   {
     id: 5,
-    name: "Mentor/Judges",
+    name: "Mentor",
     link: "/mentor",
   },
 ];
@@ -51,9 +51,9 @@ const Navbar = () => {
   };
 
   const inactiveLink =
-    "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit hover:bg-gradient-to-r hover:from-[#FFF] hover:to-[#488F21] hover:bg-clip-text hover:text-transparent";
+    "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit hover:bg-gradient-to-r hover:from-trevor-orange hover:to-michael-blue hover:bg-clip-text hover:text-transparent";
   const activeLink =
-    "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit bg-gradient-to-r from-[#488F21] to-[#FFF] bg-clip-text text-transparent border-b-2 border-b-[#488F21]";
+    "px-2 py-1 font-semibold transition ease-in-out duration-200 relative group max-w-fit bg-gradient-to-r from-michael-blue to-trevor-orange bg-clip-text text-transparent border-b-2 border-b-[#488F21]";
   return (
     <>
       <div
@@ -117,7 +117,7 @@ const Navbar = () => {
               }
             >
               <span>{item.name}</span>
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-[#FFF] to-[#488F21] rounded-full transition-all group-hover:w-full"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-franklin-green to-michael-blue rounded-full transition-all group-hover:w-full"></span>
             </Link>
           ))}
           <Link
@@ -125,7 +125,7 @@ const Navbar = () => {
             className="text-center mx-auto mt-2 md:mx-0 md:flex hidden"
           >
             <button className="relative inline-flex h-8 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ABEDAB_0%,#FFA357_50%,#65B4D4_100%)]" />
               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
                 Sponsor Us
               </span>
@@ -156,7 +156,7 @@ const Navbar = () => {
               className="text-center mx-auto mt-2 md:mx-0"
             >
               <button className="relative inline-flex h-8 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
-                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+                <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ABEDAB_0%,#FFA357_50%,#65B4D4_100%)]" />
                 <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
                   Sponsor Us
                 </span>
