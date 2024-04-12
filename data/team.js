@@ -36,7 +36,7 @@ export const TeamData = [
     },
     {
         name: "Kratika Saraswat",
-        img: "https://media.licdn.com/dms/image/D5635AQG_dVXwHHxYDg/profile-framedphoto-shrink_800_800/0/1711534081677?e=1713513600&v=beta&t=3cgfR7XeAEi2LFzSFw14bGpNuWmIIqI_jZtku3Tj6Hw",
+        img: "https://media.licdn.com/dms/image/D5603AQHjO3DhdLaWbg/profile-displayphoto-shrink_400_400/0/1710582281702?e=1718236800&v=beta&t=eGnUiHHvyF_mAjEK6iBWUyVicsSz7zAeHL9qwkpUM68",
         linkedin: "https://www.linkedin.com/in/kratikasaraswatt1912/",
     },
     {
