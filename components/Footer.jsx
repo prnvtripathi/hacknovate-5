@@ -1,6 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaYoutube, FaTwitter, FaInstagram } from "react-icons/fa6";
-import { IoLogoDiscord } from "react-icons/io5";
+import { FaLinkedin, FaTwitter, FaInstagram, FaDiscord } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 import { Anton } from "next/font/google";
 import Image from "next/image";
@@ -14,6 +13,7 @@ function Footer() {
   return (
     <>
       <footer
+        id="contact"
         className={`px-6 sm:px-12 md:px-24 py-10 border-white gap-x-[25rem] mt-9 bg-black ${anton.className} tracking-widest border-t border-gray-500`}
       >
         <div className="flex md:flex-row flex-col">
@@ -43,11 +43,18 @@ function Footer() {
 
                 <div className="flex flex-col gap-2">
                   <div className="flex justify-center items-center gap-4">
-                    <FaTwitter className="text-gray-500 transition-all text-3xl hover:text-blue-500 hover:scale-90" />
-                    <FaLinkedin className="text-gray-500 transition-all text-3xl hover:text-indigo-400 hover:scale-90" />
-                    <IoLogoDiscord className="text-gray-500 transition-all text-3xl hover:text-indigo-600 hover:scale-90" />
-                    <FaYoutube className="text-gray-500 transition-all text-3xl hover:text-red-600 hover:scale-90" />
-                    <FaInstagram className="text-gray-500 transition-all text-3xl hover:text-pink-600 hover:scale-90" />
+                    <Link href="https://twitter.com/hacknovate">
+                      <FaTwitter className="text-gray-500 transition-all text-3xl hover:text-blue-500 hover:scale-90" />
+                    </Link>
+                    <Link href="https://www.linkedin.com/company/hacknovate/about/">
+                      <FaLinkedin className="text-gray-500 transition-all text-3xl hover:text-indigo-400 hover:scale-90" />
+                    </Link>
+                    <Link href="https://discord.gg/aHSFWKjb">
+                      <FaDiscord className="text-gray-500 transition-all text-3xl hover:text-indigo-600 hover:scale-90" />
+                    </Link>
+                    <Link href="https://www.instagram.com/hacknovate.abesit/">
+                      <FaInstagram className="text-gray-500 transition-all text-3xl hover:text-pink-600 hover:scale-90" />
+                    </Link>
                   </div>
 
                   <div className="flex items-center justify-center gap-1">

@@ -17,8 +17,8 @@ const navbarItems = [
   },
   {
     id: 2,
-    name: "Prizes",
-    link: "/#prizes",
+    name: "Contact Us",
+    link: "#contact",
   },
   {
     id: 3,
