@@ -10,7 +10,7 @@ const anton = Anton({
 const data = [
     {
         ques: "What I required to be in the Hacknovate 5.0?",
-        ans: "You need your laptop and charge along with your team rest leave to us, we’ll take care of your requirement"
+        ans: "You need your laptop and charger along with your team rest leave to us, we’ll take care of your requirement"
     },
     {
         ques: "Is the team compulsory?",
