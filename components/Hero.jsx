@@ -39,7 +39,7 @@ export default function Hero() {
                                 initial={{ opacity: 0, y: 50 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.4, delay: 0.5 }}>
-                                <Image src='/logo.svg' width={500} height={10} className='px-1' />
+                                <Image src='/logo.png' width={500} height={10} className='px-1' />
                             </motion.div>
                             <motion.p
                                 initial={{ opacity: 0, y: 50 }}

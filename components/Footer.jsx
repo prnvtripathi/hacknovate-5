@@ -23,7 +23,7 @@ function Footer() {
               <div className="flex gap-10 flex-col md:flex-row items-center">
                 <Image src="/abesit.svg" width={120} height={10} />
                 <Image
-                  src="/logo.svg"
+                  src="/logo.png"
                   alt="logo"
                   width={200}
                   height={50}
