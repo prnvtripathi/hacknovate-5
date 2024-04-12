@@ -16,7 +16,9 @@ const Prizes = () => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
-      className='w-11/12 mx-auto py-12'>
+      className='w-11/12 mx-auto py-12'
+      id='prizes'
+      >
 
       <Heading>Prizes</Heading>
 

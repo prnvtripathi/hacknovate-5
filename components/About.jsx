@@ -34,6 +34,7 @@ const About = () => {
       transition={{ duration: 0.5 }}
       viewport={{ once: true, amount: 0.5 }}
       className={`text-6xl bg-[url(/aboutBG.jpg)] bg-cover md:bg-cover bg-no-repeat flex flex-col justify-center items-center w-full py-20 gap-10`}
+      id="about"
     >
       <div className="flex">
         <div className="md:w-1/3">
