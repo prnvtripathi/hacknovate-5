@@ -26,7 +26,7 @@ export const TeamData = [
     },
     {
         name: "Suraj Singh",
-        img: "https://media.licdn.com/dms/image/D4D35AQEXCcsP7qzz-w/profile-framedphoto-shrink_800_800/0/1697973029741?e=1713513600&v=beta&t=esfnD1eJY0WnMJ_nR_H6fwCDKaeMDm_fNgCPafFZ1Lg",
+        img: "https://media.licdn.com/dms/image/C4D03AQHKtuCJJQBgow/profile-displayphoto-shrink_400_400/0/1641261997026?e=1718236800&v=beta&t=bZpGUCQNXA2GUW0cxQVFOyNFGs5ihMWCJvH7ed2ds2Q",
         linkedin: "https://www.linkedin.com/in/surajsingh0912/",
     },
     {
@@ -36,7 +36,7 @@ export const TeamData = [
     },
     {
         name: "Kratika Saraswat",
-        img: "https://media.licdn.com/dms/image/D5635AQG_dVXwHHxYDg/profile-framedphoto-shrink_800_800/0/1711534081677?e=1713513600&v=beta&t=3cgfR7XeAEi2LFzSFw14bGpNuWmIIqI_jZtku3Tj6Hw",
+        img: "https://media.licdn.com/dms/image/D5603AQHjO3DhdLaWbg/profile-displayphoto-shrink_400_400/0/1710582281702?e=1718236800&v=beta&t=eGnUiHHvyF_mAjEK6iBWUyVicsSz7zAeHL9qwkpUM68",
         linkedin: "https://www.linkedin.com/in/kratikasaraswatt1912/",
     },
     {
@@ -91,7 +91,7 @@ export const TeamData = [
     },
     {
         name: "Abhinav Gupta",
-        img: "https://media.licdn.com/dms/image/D4D03AQGjJOuEOV7qFg/profile-displayphoto-shrink_400_400/0/1701284704313?e=1718236800&v=beta&t=f1RaP48ueiv7qxUSlI9uHz2J4RFFZdb2ZJ_KzafuNbM",
+        img: "https://media.licdn.com/dms/image/D5603AQEx9bZfFYBH4w/profile-displayphoto-shrink_400_400/0/1712913242171?e=1718236800&v=beta&t=7n1GcEmHUSOfI5dKV6STbOQ2iJ1hqxptWnwT8-fn9uQ",
         linkedin: "https://www.linkedin.com/in/abhinav-gupta-cs/",
     },
     {

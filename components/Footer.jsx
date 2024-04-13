@@ -19,7 +19,7 @@ function Footer() {
         {/* Footer Content */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-8">
           {/* Logo Section */}
-          <div className="flex gap-8 items-center">
+          <div className="flex gap-8 items-center flex-col md:flex-row">
             <Image src="/abesit.svg" width={120} height={10} />
             <Image
               src="/logo.png"
