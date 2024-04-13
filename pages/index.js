@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import Prizes from '@/components/Prize';
+import Sponsors from '@/components/Sponsors';
 import Themes from '@/components/Themes';
 import localFont from 'next/font/local'
 import Head from 'next/head';
@@ -26,6 +27,7 @@ export default function Home() {
         <About />
         <Prizes />
         <Themes />
+        <Sponsors />
         <FAQs />
         <Banner />
       </main>

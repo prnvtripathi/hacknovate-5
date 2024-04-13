@@ -169,7 +169,9 @@ const Navbar = () => {
           {/* <img src="/aktu.png" className="w-[54px] object-contain" />
           <img src="/nba.png" className="w-[54px] object-contain" />
           <img src="/iic.png" className="w-[54px] object-contain" /> */}
-          <Image src="/abesit.svg" width={135} height={50} />
+          <Link href="https://abesit.in" target="_blank">
+            <Image src="/abesit.svg" width={135} height={50} />
+          </Link>
         </div>
       </div>
     </>

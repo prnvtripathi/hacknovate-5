@@ -71,7 +71,7 @@ const About = () => {
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <Heading>Past Statistics</Heading>
 
         <div>
@@ -120,7 +120,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </motion.div>
   );
 };

@@ -11,17 +11,17 @@ const organisingCommittee = [
     },
     {
         name: "Prof. (Dr.) Upasana Pandey",
-        position: "Advisors",
+        position: "Advisor",
         designation: "Dean Academics"
     },
     {
         name: "Prof. (Dr.) Subodh Kumar Sharma",
-        position: "Advisors",
+        position: "Advisor",
         designation: "Dean Student Welfare"
     },
     {
         name: "Prof. (Dr.) Manjul Pratap Singh",
-        position: "Advisors",
+        position: "Advisor",
         designation: "Principal - Pharmacy"
     },
     {

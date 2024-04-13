@@ -32,16 +32,16 @@ function Footer() {
 
           {/* Navigation Links */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-8 my-5">
-            <Link href="#">
+            <Link href="/#about">
               <p className="text-white text-[16px]">About</p>
             </Link>
-            <Link href="#">
-              <p className="text-white text-[16px]">Sponsor</p>
+            <Link href="/#sponsors">
+              <p className="text-white text-[16px]">Sponsors</p>
             </Link>
-            <Link href="#">
+            <Link href="/events">
               <p className="text-white text-[16px]">Events</p>
             </Link>
-            <Link href="#">
+            <Link href="https://hacknovate5.devfolio.co/">
               <p className="text-white text-[16px]">Register</p>
             </Link>
           </div>
