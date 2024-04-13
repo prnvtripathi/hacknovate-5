@@ -110,28 +110,34 @@ export default function Hero() {
           >
             <CountdownTimer />
           </motion.div>
-        </div> <div className="absolute bottom-10 right-10 md:flex hidden flex-col gap-2">
-            <div className={`text-xl ${anton.className}`}>
-                Follow Us
-            </div>
-            
-            <div className="flex gap-7">
-                <Link href="https://twitter.com/hacknovate" target="_blank">
-                    <FaTwitter className="" size={25} />
-                </Link>
-                <Link href="https://www.linkedin.com/company/hacknovate/about/" target="_blank">
-                    <FaLinkedin className=""  size={25} />
-                </Link>
-                <Link href="https://discord.gg/aHSFWKjb" target="_blank">
-                    <FaDiscord className=""  size={25} />
-                </Link>
-                <Link href="https://www.instagram.com/hacknovate.abesit/" target="_blank">
-                    <FaInstagram className=""  size={25} />
-                </Link>
-            </div>
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.4, delay: 1.5 }}
+          className="absolute bottom-10 right-10 md:flex hidden flex-col gap-2">
+          <div className={`text-xl ${anton.className}`}>
+            Follow Us
+          </div>
+
+          <div className="flex gap-7">
+            <Link href="https://twitter.com/hacknovate" target="_blank">
+              <FaTwitter className="" size={25} />
+            </Link>
+            <Link href="https://www.linkedin.com/company/hacknovate/about/" target="_blank">
+              <FaLinkedin className="" size={25} />
+            </Link>
+            <Link href="https://discord.gg/aHSFWKjb" target="_blank">
+              <FaDiscord className="" size={25} />
+            </Link>
+            <Link href="https://www.instagram.com/hacknovate.abesit/" target="_blank">
+              <FaInstagram className="" size={25} />
+            </Link>
+          </div>
+        </motion.div>
       </motion.div>
-     
+
     </>
   );
 }
