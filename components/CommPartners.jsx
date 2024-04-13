@@ -14,7 +14,7 @@ const data = [
     },
     {
         name: "IT Technical Club",
-        img: "/comm/ittc.jpg",
+        img: "/comm/ITTC.jpg",
     },
     {
         name:  "Kalrav Club",
