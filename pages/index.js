@@ -1,5 +1,6 @@
 import About from '@/components/About';
 import Banner from '@/components/Banner';
+import CommPartners from '@/components/CommPartners';
 import FAQs from '@/components/FAQs';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
@@ -28,6 +29,7 @@ export default function Home() {
         <Prizes />
         <Themes />
         <Sponsors />
+        <CommPartners />
         <FAQs />
         <Banner />
       </main>
