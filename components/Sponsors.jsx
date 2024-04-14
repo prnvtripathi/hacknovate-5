@@ -13,14 +13,8 @@ const poppins = Poppins({
 
 const Sponsors = () => {
     return (
-        <div className="w-screen h-screen flex flex-col md:flex-row text-white items-center justify-center md:p-32">
-            <div className='w-full md:w-1/2'>
-                <Image src="/lock.svg" alt="Sponsors" width={1000} height={1000} className="w-5/6 mx-auto" />
-            </div>
-            <div className='w-full md:w-1/2'>
-                <h2 className={`text-3xl md:text-5xl text-center md:text-left font-bold mb-3 ${rubik.className}`}>Sponsors</h2>
-                <h2 className={`text-base md:text-xl text-center tracking-wide text-gray-500 md:text-left font-semibold mb-2 ${poppins.className}`}>Coming Soon</h2>
-            </div>
+        <div className="h-screen flex justify-center items-center">
+            <Image src="/sponsors.svg" alt="Sponsors" width={1000} height={1000} className="" />
         </div>
     )
 }
