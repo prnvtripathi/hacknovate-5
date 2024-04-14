@@ -51,21 +51,21 @@ const Tabs = () => {
                         {activeTab === 'Student Co-ordinators' && <TeamPage />}
                         {activeTab === 'Organisers' && (
                             <div className="w-full mx-auto flex flex-col items-center gap-6">
-                                <div className='bg-gray-900 mx-auto rounded-md my-3'>
+                                <div className='bg-gray-900 mx-auto rounded-md my-3 w-full py-3'>
                                     <p className={`text-3xl text-center font-bold text-trevor-orange`}>Chief Patron</p>
                                     <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
                                         <h2 className="text-xl font-bold text-franklin-green">Sh. Ashu Goel</h2>
                                         <p className="text-sm text-michael-blue">Chairman, ABESIT Group of Institutions, Ghaziabad</p>
                                     </div>
                                 </div>
-                                <div className='bg-gray-900 mx-auto rounded-md my-3'>
+                                <div className='bg-gray-900 mx-auto rounded-md my-3 w-full py-3'>
                                     <p className={`text-3xl text-center font-bold text-trevor-orange`}>Patron</p>
                                     <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
                                         <h2 className="text-xl font-bold text-franklin-green">Prof. (Dr.) M.K. Jha</h2>
                                         <p className="text-sm text-michael-blue">Director, ABESIT Group of Institutions, Ghaziabad</p>
                                     </div>
                                 </div>
-                                <div className='bg-gray-900 w-fit mx-auto rounded-md my-3'>
+                                <div className='bg-gray-900 w-full mx-auto rounded-md my-3 py-3'>
                                     <p className={`text-3xl text-center font-bold text-trevor-orange`}>Advisor</p>
                                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
                                         <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
@@ -82,7 +82,7 @@ const Tabs = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='bg-gray-900 w-fit mx-auto rounded-md my-3'>
+                                <div className='bg-gray-900 w-full mx-auto rounded-md my-3 py-3'>
                                     <p className={`text-3xl text-center font-bold text-trevor-orange`}>Convener</p>
                                     <div className='flex flex-wrap justify-center items-center gap-4'>
                                         <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
@@ -107,7 +107,7 @@ const Tabs = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='bg-gray-900 mx-auto rounded-md my-3'>
+                                <div className='bg-gray-900 mx-auto w-full rounded-md my-3 py-3'>
                                     <p className={`text-3xl text-center font-bold text-trevor-orange`}>Co-Convener</p>
                                     <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
                                         <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
@@ -124,7 +124,7 @@ const Tabs = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='bg-gray-900 w-fit mx-auto rounded-md my-3'>
+                                <div className='bg-gray-900 w-full mx-auto rounded-md my-3 py-3'>
                                     <p className={`text-3xl text-center font-bold text-trevor-orange`}>Faculty Co-ordinator</p>
                                     <div className='flex flex-wrap justify-center items-center gap-4'>
                                         <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 text-center transition ease-in-out duration-200">
