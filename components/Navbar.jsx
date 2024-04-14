@@ -11,32 +11,22 @@ const roboto = Roboto({
 
 const navbarItems = [
   {
-    id: 1,
-    name: "Home",
-    link: "/",
-  },
-  {
-    id: 2,
     name: "About",
     link: "/#about",
   },
   {
-    id: 3,
     name: "Contact Us",
     link: "/contact",
   },
   {
-    id: 4,
     name: "Team",
     link: "/team",
   },
   {
-    id: 4,
     name: "Events",
     link: "/events",
   },
   {
-    id: 5,
     name: "Mentor",
     link: "/mentor",
   },
@@ -108,10 +98,10 @@ const Navbar = () => {
           className={`w-full md:w-auto ${isOpen ? "flex" : "hidden"
             } md:flex md:items-center md:gap-6 mx-2 md:ml-4 hidden`}
         >
-          {navbarItems.map((item) => (
+          {navbarItems.map((item, index) => (
             <Link
               href={item.link}
-              key={item.id}
+              key={index}
               className={
                 pathname.includes(item.link) ? activeLink : inactiveLink
               }
@@ -138,9 +128,9 @@ const Navbar = () => {
           className={`${isOpen ? "opacity-100 scale-y-100" : "opacity-0 scale-y-0"
             } absolute top-full text-left left-0 right-0 md:hidden transition-all duration-300 transform origin-top ease-in-out bg-black bg-opacity-90`}
         >
-          {navbarItems.map((item) => (
+          {navbarItems.map((item, index) => (
             <div
-              key={item.id}
+              key={index}
               className={
                 item.id === 1
                   ? "border-y-[1px] pl-10 py-2"
