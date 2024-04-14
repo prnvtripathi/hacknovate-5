@@ -62,7 +62,7 @@ const Tabs = () => {
                                     <p className={`text-3xl text-center font-bold text-trevor-orange`}>Patron</p>
                                     <div className="flex flex-col items-center justify-around p-1 md:p-3 rounded-lg m-1 w-full text-center transition ease-in-out duration-200">
                                         <h2 className="text-xl font-bold text-franklin-green">Prof. (Dr.) M.K. Jha</h2>
-                                        <p className="text-sm text-michael-blue">Chairman, ABESIT Group of Institutions, Ghaziabad</p>
+                                        <p className="text-sm text-michael-blue">Director, ABESIT Group of Institutions, Ghaziabad</p>
                                     </div>
                                 </div>
                                 <div className='bg-gray-900 w-fit mx-auto rounded-md my-3'>
