@@ -22,7 +22,7 @@ const Prizes = () => {
 
       <Heading>Prizes</Heading>
 
-      <div className='my-4 flex flex-col sm:flex-row gap-y-6 justify-evenly overflow-y-auto scroll-snap-y-mandatory'>
+      <div className='my-4 flex flex-col sm:flex-row gap-y-6 justify-evenly overflow-y-auto scroll-snap-y-mandatory blur-lg'>
 
 
         <div className="bg-[url(/bg.jpg)] bg-cover h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col .bg-50 scroll-snap-start" >
