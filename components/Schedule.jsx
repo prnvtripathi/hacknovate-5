@@ -10,7 +10,8 @@ export default function Schedule() {
                 </Heading>
             </div>
 
-            <img src="/schedule.svg" alt="Sponsors" className="" />
+            <img src="/schedule.svg" alt="Sponsors" className="hidden md:flex" />
+            <img src="/schedulemobile.svg" alt="Sponsors" className="flex md:hidden" />
         </div>
     )
 }
