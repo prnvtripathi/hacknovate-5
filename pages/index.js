@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import Navbar from '@/components/Navbar';
 import Prizes from '@/components/Prize';
+import Schedule from '@/components/Schedule';
 import Sponsors from '@/components/Sponsors';
 import Themes from '@/components/Themes';
 import localFont from 'next/font/local'
@@ -28,6 +29,7 @@ export default function Home() {
         <About />
         <Prizes />
         <Themes />
+        <Schedule />
         <Sponsors />
         <CommPartners />
         <FAQs />
