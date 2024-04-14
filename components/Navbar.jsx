@@ -12,18 +12,18 @@ const roboto = Roboto({
 const navbarItems = [
   {
     id: 1,
+    name: "Home",
+    link: "/",
+  },
+  {
+    id: 2,
     name: "About",
     link: "/#about",
   },
   {
-    id: 2,
+    id: 3,
     name: "Contact Us",
     link: "/contact",
-  },
-  {
-    id: 3,
-    name: "Sponsors",
-    link: "/#sponsors",
   },
   {
     id: 4,
