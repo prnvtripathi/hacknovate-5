@@ -48,7 +48,7 @@ export default function FAQs() {
             viewport={{ once: true, amount: 0.5 }}
             className="w-11/12 mx-auto py-12">
             <div>
-                <Heading>faQs</Heading>
+                <Heading>FAQs</Heading>
             </div>
             <div className="space-y-4">
                 {data.map((item, index) => (

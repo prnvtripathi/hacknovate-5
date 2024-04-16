@@ -22,7 +22,7 @@ const Prizes = () => {
 
       <Heading>Prizes</Heading>
 
-      <div className='my-4 flex flex-col sm:flex-row gap-y-6 justify-evenly overflow-y-auto scroll-snap-y-mandatory blur-lg'>
+      <div className='my-4 flex flex-col sm:flex-row gap-y-6 justify-evenly overflow-y-auto scroll-snap-y-mandatory'>
 
 
         <div className="bg-[url(/bg.jpg)] bg-cover h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col .bg-50 scroll-snap-start" >
@@ -31,7 +31,7 @@ const Prizes = () => {
           <img src="/collage.svg" alt="reload" className='flex justify-center align-middle items-center border border-gray-700 rounded-md w-full md:w-3/4 lg:w-1/2' />
           <div>
             <Heading>Hacknovate Offline</Heading>
-            <ul className={`my-3 flex flex-col ${anton.className} tracking-widest`}>
+            <ul className={`my-3 flex flex-col tracking-widest`}>
               <li className='font-semibold text-2xl'>Winner: ₹25,000 </li>
               <li className='font-semibold text-2xl'>Runner Up: ₹15,000 </li>
             </ul>
@@ -51,7 +51,7 @@ const Prizes = () => {
           <img src="/collage.svg" alt="reload" className='flex justify-center align-middle items-center border border-gray-700 rounded-md w-full md:w-3/4 lg:w-1/2' />
           <div>
             <Heading>Hacknovate Online</Heading>
-            <ul className={`my-3 flex flex-col ${anton.className} tracking-widest`}>
+            <ul className={`my-3 flex flex-col tracking-widest`}>
               <li className='font-semibold text-2xl'>Winner: ₹10,000 </li>
               <li className='font-semibold text-2xl'>Runner Up: ₹5,000 </li>
             </ul>

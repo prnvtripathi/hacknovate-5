@@ -1,6 +1,7 @@
 import About from '@/components/About';
 import Banner from '@/components/Banner';
 import CommPartners from '@/components/CommPartners';
+import CountdownTimer from '@/components/Countdown';
 import FAQs from '@/components/FAQs';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
@@ -26,6 +27,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
+        <CountdownTimer />
         <About />
         <Prizes />
         <Themes />

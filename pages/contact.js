@@ -13,6 +13,12 @@ const pricedown = localFont({
     src: './../assets/fonts/pricedown.ttf',
 })
 
+const chalet = localFont({
+    src: './../assets/fonts/ChaletComprime-CologneSixty.ttf'
+})
+
+// const chaletLondon = localFont({})
+
 
 const anton = Anton({
     subsets: ['latin-ext'],
@@ -34,12 +40,12 @@ const contact = () => {
     return (
         <div className='flex flex-col md:pt-32 md:px-10 px-5 gap-10'>
             <div className=''>
-                <div className={`${pricedown.className} text-5xl`} >
+                <div className={`${chalet.className} text-5xl`} >
                     How can we help you?
                 </div>
 
 
-                <div className={`text-md md:text-xl text-gray-200 text-left ${anton.className}`}>
+                <div className={`text-md md:text-lg text-gray-200 text-left`}>
                     Need guidance, troubleshooting, or simply want to connect with fellow enthusiasts? <br />
                     Don't hesitate to reach out for assistance and collaboration opportunities!
                 </div>
@@ -52,9 +58,9 @@ const contact = () => {
                         <iframe
                             width="100%"
                             height="300"
-                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=ABESIT+(Hacknovate%205.0)&amp;t=p&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=ABESIT+(Hacknovate%205.0)&amp;t=p&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                             className='rounded-2xl'
-                            />
+                        />
                     </div>
                 </div>
             </div>
@@ -68,10 +74,10 @@ const contact = () => {
                         <IoTrainOutline size={40} className='text-black scale-105 hover:rotate-90 transition-all' />
                     </div>
                     <div className="flex flex-col items-start gap-3">
-                        <p className={`text-4xl ${pricedown.className} tracking-wider`}>
+                        <p className={`text-4xl ${chalet.className} tracking-wider`}>
                             By Train
                         </p>
-                        <p className={`text-lg ${anton.className}`}>
+                        <p className={`text-lg`}>
                             The ABES Institute of Technology is situated about 5 kilometers from the Ghaziabad Railway Station. Typically, the auto fare for this distance ranges from ₹100 to ₹150.
                         </p>
                     </div>
@@ -84,10 +90,10 @@ const contact = () => {
                         <IoAirplaneOutline size={40} className='text-black scale-105 hover:rotate-90 transition-all' />
                     </div>
                     <div className="flex flex-col items-start gap-5">
-                        <p className={`text-4xl ${pricedown.className} tracking-wider`}>
+                        <p className={`text-4xl ${chalet.className} tracking-wider`}>
                             By Air
                         </p>
-                        <p className={`text-lg ${anton.className}`}>
+                        <p className={`text-lg`}>
                             Nearest Airport from the campus is the IGI Airport, New Delhi. The distance between the airport and the campus is around 45 kilometers and the fare for a taxi ride from the airport is typically around ₹800-₹1000.
                         </p>
                     </div>
@@ -100,10 +106,10 @@ const contact = () => {
                         <TbBus size={40} className='text-black scale-105 hover:rotate-90 transition-all' />
                     </div>
                     <div className="flex flex-col items-start gap-5">
-                        <p className={`text-4xl ${pricedown.className} tracking-wider`}>
+                        <p className={`text-4xl ${chalet.className} tracking-wider`}>
                             By Bus
                         </p>
-                        <p className={`text-lg ${anton.className}`}>
+                        <p className={`text-lg`}>
                             Kashmiri Gate & Anand Vihar ISBT are the nearest ISBTs from the campus. The distance fromthe campus is around 20 kilometers and the fare for a taxi ride from the bus stand is typically around ₹300-₹400.
                         </p>
                     </div>
@@ -112,10 +118,10 @@ const contact = () => {
 
             <div className="flex justify-between py-8 md:flex-row flex-col md:gap-0 gap-10">
                 <div>
-                    <div className={`${pricedown.className} text-4xl`} >
+                    <div className={`${chalet.className} text-4xl`} >
                         Call Us
                     </div>
-                    <div className={`flex flex-col text-md ${anton.className}`}>
+                    <div className={`flex flex-col text-md`}>
                         {phoneNumbers.map((item, index) => (
                             <div key={index} className="mb-2">
                                 <span className="font-light">{item.name} :</span>
@@ -129,8 +135,8 @@ const contact = () => {
                 </div>
 
                 <div>
-                    <div className={`${pricedown.className} text-4xl`}> Address </div>
-                    <div className={`text-lg ${anton.className}`}>
+                    <div className={`${chalet.className} text-4xl`}> Address </div>
+                    <div className={`text-lg`}>
                         ABES Institute of Technology, 19th km Stone, NH-24, Ghaziabad, Uttar Pradesh, 201009
                     </div>
                     <Link className='flex gap-2 items-center text-blue-400' target='_blank' href={'https://maps.app.goo.gl/oa1oGENZECBd6jyB7'}> <FaExternalLinkAlt stroke='1' /> <span> Google Maps</span> </Link>
