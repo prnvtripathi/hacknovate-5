@@ -1,5 +1,10 @@
 export const TeamData = [
     {
+        name: "Kanishak Chaurasia",
+        img: "https://media.licdn.com/dms/image/D4D03AQGI47iFdBiWaw/profile-displayphoto-shrink_400_400/0/1708961934768?e=1718236800&v=beta&t=Wni6MQLijTokb_6gizq5xNXlV04Mod8suLTq_EIYYZ8",
+        linkedin: "https://www.linkedin.com/in/dappdost/",
+    },
+    {
         name: "Sushant Sharma",
         img: "https://media.licdn.com/dms/image/C4D03AQEJ5hCqADM_jw/profile-displayphoto-shrink_400_400/0/1662690037207?e=1718236800&v=beta&t=4CQgohfhc-fkz6f5RV0-kDitGF7dUxwT048mtnPoOjA",
         linkedin: "https://www.linkedin.com/in/sushant2021cs101/",
@@ -20,29 +25,14 @@ export const TeamData = [
         linkedin: "https://www.linkedin.com/in/mridulgoel03/",
     },
     {
-        name: "Roshan Dubey",
-        img: "https://media.licdn.com/dms/image/D5603AQHE8caCBcjM7g/profile-displayphoto-shrink_800_800/0/1709477835656?e=1718236800&v=beta&t=oFs57bWLR8bHcsazrNHSrdZ_GOUxoR7UZvxJ9sVbaLU",
-        linkedin: "https://www.linkedin.com/in/roshandubey99/",
-    },
-    {
-        name: "Suraj Singh",
-        img: "https://media.licdn.com/dms/image/D4D35AQEXCcsP7qzz-w/profile-framedphoto-shrink_800_800/0/1697973029741?e=1713513600&v=beta&t=esfnD1eJY0WnMJ_nR_H6fwCDKaeMDm_fNgCPafFZ1Lg",
-        linkedin: "https://www.linkedin.com/in/surajsingh0912/",
-    },
-    {
         name: "Mukul Prajapati",
         img: "https://media.licdn.com/dms/image/D4D03AQFMv_K2QQk7XA/profile-displayphoto-shrink_400_400/0/1701598457683?e=1718236800&v=beta&t=WRNHE5lh2aVf1mO_ipY8cGtnOx5zjf5jeca6xeujQro",
         linkedin: "https://www.linkedin.com/in/mukulprajapati/",
     },
     {
         name: "Kratika Saraswat",
-        img: "https://media.licdn.com/dms/image/D5635AQG_dVXwHHxYDg/profile-framedphoto-shrink_800_800/0/1711534081677?e=1713513600&v=beta&t=3cgfR7XeAEi2LFzSFw14bGpNuWmIIqI_jZtku3Tj6Hw",
+        img: "https://media.licdn.com/dms/image/D5603AQHjO3DhdLaWbg/profile-displayphoto-shrink_400_400/0/1710582281702?e=1718236800&v=beta&t=eGnUiHHvyF_mAjEK6iBWUyVicsSz7zAeHL9qwkpUM68",
         linkedin: "https://www.linkedin.com/in/kratikasaraswatt1912/",
-    },
-    {
-        name: "Tripti Singh",
-        img: "https://media.licdn.com/dms/image/D4D03AQE7REaOUa83QQ/profile-displayphoto-shrink_800_800/0/1663740230913?e=1718236800&v=beta&t=NPK31OY7TZe5u6pkPM4HbJ-OMQBAdQtKCqOaUVHJ9jg",
-        linkedin: "https://www.linkedin.com/in/tripti-singh-057108230/",
     },
     {
         name: "Harsh Pal",
@@ -55,14 +45,24 @@ export const TeamData = [
         linkedin: "https://www.linkedin.com/in/vansh-goel-100928221/",
     },
     {
+        name: "Tripti Singh",
+        img: "https://media.licdn.com/dms/image/D4D03AQE7REaOUa83QQ/profile-displayphoto-shrink_800_800/0/1663740230913?e=1718236800&v=beta&t=NPK31OY7TZe5u6pkPM4HbJ-OMQBAdQtKCqOaUVHJ9jg",
+        linkedin: "https://www.linkedin.com/in/tripti-singh-057108230/",
+    },
+    {
         name: "Ankur Chauhan",
         img: "https://media.licdn.com/dms/image/D5603AQGq1OuCXLLRyg/profile-displayphoto-shrink_800_800/0/1706875239657?e=1718236800&v=beta&t=4I2hTrhuSqwACH21mz7pQ8FRA1NtlXJExuaVSKAucNg",
         linkedin: "https://www.linkedin.com/in/ankur-chauhan-755340276/",
     },
     {
-        name: "Kanishak Chaurasia",
-        img: "https://media.licdn.com/dms/image/D4D03AQGI47iFdBiWaw/profile-displayphoto-shrink_400_400/0/1708961934768?e=1718236800&v=beta&t=Wni6MQLijTokb_6gizq5xNXlV04Mod8suLTq_EIYYZ8",
-        linkedin: "https://www.linkedin.com/in/dappdost/",
+        name: "Roshan Dubey",
+        img: "https://media.licdn.com/dms/image/D5603AQHE8caCBcjM7g/profile-displayphoto-shrink_800_800/0/1709477835656?e=1718236800&v=beta&t=oFs57bWLR8bHcsazrNHSrdZ_GOUxoR7UZvxJ9sVbaLU",
+        linkedin: "https://www.linkedin.com/in/roshandubey99/",
+    },
+    {
+        name: "Suraj Singh",
+        img: "https://media.licdn.com/dms/image/C4D03AQHKtuCJJQBgow/profile-displayphoto-shrink_400_400/0/1641261997026?e=1718236800&v=beta&t=bZpGUCQNXA2GUW0cxQVFOyNFGs5ihMWCJvH7ed2ds2Q",
+        linkedin: "https://www.linkedin.com/in/surajsingh0912/",
     },
     {
         name: "Kumar Kartikeya",
@@ -91,7 +91,7 @@ export const TeamData = [
     },
     {
         name: "Abhinav Gupta",
-        img: "https://media.licdn.com/dms/image/D4D03AQGjJOuEOV7qFg/profile-displayphoto-shrink_400_400/0/1701284704313?e=1718236800&v=beta&t=f1RaP48ueiv7qxUSlI9uHz2J4RFFZdb2ZJ_KzafuNbM",
+        img: "https://media.licdn.com/dms/image/D5603AQEx9bZfFYBH4w/profile-displayphoto-shrink_400_400/0/1712913242171?e=1718236800&v=beta&t=7n1GcEmHUSOfI5dKV6STbOQ2iJ1hqxptWnwT8-fn9uQ",
         linkedin: "https://www.linkedin.com/in/abhinav-gupta-cs/",
     },
     {
