@@ -40,7 +40,7 @@ const ABESIT = () => {
             <div className="flex flex-row-reverse">
                 <div className="md:w-1/3">
                     <div className="hidden md:block rounded-lg">
-                        <Image src="/AboutHacknovate.png" alt="ABESIT" height={700} width={500}  className="p-3 rounded-lg mt-20"/>
+                        <Image src="/newAbes.webp" alt="ABESIT" height={700} width={500}  className="p-3 h-80 mt-20 rounded-lg "/>
                     </div>
                 </div>
 
