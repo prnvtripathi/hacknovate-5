@@ -25,7 +25,7 @@ const Prizes = () => {
       <div className='my-4 flex flex-col sm:flex-row gap-y-6 justify-evenly overflow-y-auto scroll-snap-y-mandatory'>
 
 
-        <div className="bg-[url(/bg.jpg)] bg-cover h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col .bg-50 scroll-snap-start" >
+        <div className="bg-[url(/bg.webp)] bg-cover h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col .bg-50 scroll-snap-start" >
 
 
           <img src="/collage.svg" alt="reload" className='flex justify-center align-middle items-center border border-gray-700 rounded-md w-full md:w-3/4 lg:w-1/2' />
@@ -44,7 +44,7 @@ const Prizes = () => {
 
         </div>
 
-        <div className="bg-[url(/hero.jpg)] bg-cover bg-center h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col scroll-snap-start" >
+        <div className="bg-[url(/hero.webp)] bg-cover bg-center h-screen flex items-center justify-center w-full sm:w-2/5 rounded-md border flex-col scroll-snap-start" >
 
 
 

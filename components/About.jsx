@@ -1,7 +1,7 @@
 import React from "react";
 import localFont from "next/font/local";
 import Image from "next/image";
-import AboutImg from "@/public/AboutIMG.png";
+import AboutImg from "@/public/AboutIMG.webp";
 import { Roboto } from "next/font/google";
 import Heading from "./Heading";
 import { IoIosStats } from "react-icons/io";
@@ -46,7 +46,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-col w-full md:w-2/3 px-5 text-left">
-          <Heading>What is Hacknovate 5?</Heading>
+          <Heading>What is Hacknovate 5.0?</Heading>
 
           <div
             className={`text-base text-center md:text-left flex flex-col gap-5 py-4 ${roboto.className}`}
