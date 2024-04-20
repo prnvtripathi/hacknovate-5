@@ -10,7 +10,7 @@ export default function Schedule() {
                 </Heading>
             </div>
 
-            <img src="/schedule.svg" alt="Sponsors" className="hidden md:flex" />
+            <img src="/newSchedule.png" alt="Sponsors" className="hidden md:flex w-11/12 h-auto align-middle mx-auto justify-center"  />
             <img src="/schedulemobile.svg" alt="Sponsors" className="flex md:hidden" />
         </div>
     )

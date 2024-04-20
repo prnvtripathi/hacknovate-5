@@ -60,7 +60,7 @@ const contact = () => {
 
                     <div className='mt-10'>
                         <div className={`text-xl md:text-3xl text-left mb-3 ${anton.className}`}>
-                            Reaching <span className='text-michael-blue'>ABES Institute of Technology</span>
+                            Reaching <span className='text-michael-blue'>ABES Institute of Technology,Ghaziabad</span>
                         </div>
                         <div>
                             <iframe
