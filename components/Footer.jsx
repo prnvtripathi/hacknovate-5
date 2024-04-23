@@ -56,7 +56,7 @@ function Footer() {
               <Link href="https://www.linkedin.com/company/hacknovate/about/">
                 <FaLinkedin className="text-gray-500 transition-all text-3xl hover:text-indigo-400 hover:scale-90" />
               </Link>
-              <Link href="https://discord.gg/aHSFWKjb">
+              <Link href="https://discord.gg/kaGJwHqW8t">
                 <FaDiscord className="text-gray-500 transition-all text-3xl hover:text-indigo-600 hover:scale-90" />
               </Link>
               <Link href="https://www.instagram.com/hacknovate.abesit/">

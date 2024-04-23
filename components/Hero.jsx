@@ -126,7 +126,7 @@ export default function Hero() {
             <Link href="https://www.linkedin.com/company/hacknovate/about/" target="_blank">
               <FaLinkedin className="" size={25} />
             </Link>
-            <Link href="https://discord.gg/aHSFWKjb" target="_blank">
+            <Link href="https://discord.gg/kaGJwHqW8t" target="_blank">
               <FaDiscord className="" size={25} />
             </Link>
             <Link href="https://www.instagram.com/hacknovate.abesit/" target="_blank">
