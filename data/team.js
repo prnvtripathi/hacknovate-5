@@ -16,7 +16,7 @@ export const TeamData = [
     },
     {
         name: "Pranav Tripathi",
-        img: "https://pbs.twimg.com/profile_images/1772649451036774400/_rRP76yz_400x400.jpg",
+        img: "https://pbs.twimg.com/profile_images/1780836432485183489/X-XpG4zA_400x400.jpg",
         linkedin: "https://www.linkedin.com/in/tripathipranav14/",
     },
     {
