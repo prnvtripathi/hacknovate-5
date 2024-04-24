@@ -76,7 +76,7 @@ export const TeamData = [
     },
     {
         name: "Aditya Srivastava",
-        img: "https://media.licdn.com/dms/image/D4D35AQEu6skLUu-KMw/profile-framedphoto-shrink_400_400/0/1700987044764?e=1713513600&v=beta&t=e4ZBi9OPWwrMbaBnbsxoF1-gNjpoSRpvBwLMOwVbEyY",
+        img: "https://media.licdn.com/dms/image/D4D03AQHSlCP2EIC4hA/profile-displayphoto-shrink_400_400/0/1697172296425?e=1719446400&v=beta&t=115CAH6uNdIAOuT8cv3FRqLE9qieQwWo1a0-UaOgNzw",
         linkedin: "https://www.linkedin.com/in/aditya-srivastava-ironic/",
     },
     {
