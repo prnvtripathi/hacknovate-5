@@ -36,7 +36,7 @@ function Footer() {
               <p className="text-white text-[16px]">About</p>
             </Link>
             <Link href="/#sponsors">
-              <p className="text-white text-[16px]">Sponsors</p>
+              <p className="text-white text-[16px]">Brochure</p>
             </Link>
             <Link href="/events">
               <p className="text-white text-[16px]">Events</p>
@@ -74,9 +74,12 @@ function Footer() {
         <hr className="mt-6" />
 
         {/* Footer Bottom */}
-        <div className="mt-6">
+        <div className="mt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-white text-center md:text-left">
             © Copyright ABESIT. All Right Reserved
+          </p>
+          <p className="text-sm text-white text-center md:text-left">
+            Want to be a part of Hacknovate? <Link href={'https://bio.link/hacknovate'} className="text-blue-500">Click Here</Link>
           </p>
         </div>
       </footer>
