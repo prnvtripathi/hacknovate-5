@@ -35,7 +35,7 @@ function Footer() {
             <Link href="/#about">
               <p className="text-white text-[16px]">About</p>
             </Link>
-            <Link href="/#sponsors">
+            <Link href="/">
               <p className="text-white text-[16px]">Brochure</p>
             </Link>
             <Link href="/events">
