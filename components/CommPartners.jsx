@@ -18,11 +18,11 @@ export default function CommPartners() {
        
         >
         {CommunityPartnerR1.map((partner, index) => (
-          <div key={index}>
+          <div key={index}  className="px-4 h-44 w-44 flex justify-center items-center object-contain">
             <img
               src={partner.img}
               alt={partner.name}
-              className="w-60 mx-auto object-contain"
+              className={`w-60 mx-auto object-contain ${partner?.className}`}
             />
           </div>
         ))}

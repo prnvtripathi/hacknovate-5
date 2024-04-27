@@ -7,14 +7,60 @@ const CommunityPartnerR1 = [
         name: "IT Technical Club",
         img: "/comm/ITTC.jpg",
     },
-    // {
-    //     name:  "Kalrav Club",
-    //     img: "/comm/kalrav.png",
-    // },
     {
         name: "Aayaam Club",
         img: "/comm/aayaam.png",
+    },
+    {
+        name: "CodeChef ABESEC",
+        img: "/comm/codechefabesec.jpg",
+    },
+    {
+        name: "Code Social",
+        img: "/comm/codesocial.svg",
+    },
+    {
+        name: "ConnectVerse",
+        img: "/comm/connectverse.png",
+    },
+    {
+        name: "DevLearn",
+        img: "/comm/devlearn.png",
+        className: "bg-white p-3",
+    },
+    {
+        name: "Elixir",
+        img: "/comm/elixir.png",
+    },
+    {
+        name: "Fresources",
+        img: "/comm/fresources.png",
+    },
+    {
+        name: "GDSC Bennett University",
+        img: "/comm/gdscbu.png",
+    },
+    {
+        name: "GDSC CMMCOE",
+        img: "/comm/gdscmmcoe.png",
+    },
+    {
+        name: "GFG ABESEC",
+        img: "/comm/gfgABESEC.png",
+        className: "bg-white p-3",
+    },
+    {
+        name: "MLSA KIET",
+        img: "/comm/mlsakiet.jpg",
+    },
+    {
+        name: "NSC KIET",
+        img: "/comm/nscckiet.jpeg",
+    },
+    {
+        name: "Tech Talks",
+        img: "/comm/techtalks.jpg",
     }
 ]
-export {CommunityPartnerR1}
+export { CommunityPartnerR1 }
 
