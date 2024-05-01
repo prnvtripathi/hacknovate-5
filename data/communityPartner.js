@@ -30,7 +30,7 @@ const CommunityPartnerR1 = [
     },
     {
         name: "Elixir",
-        img: "/comm/elixir.png",
+        img: "/comm/elixir.PNG",
     },
     {
         name: "Fresources",
