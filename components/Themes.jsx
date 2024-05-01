@@ -42,7 +42,7 @@ const Themes = () => {
             className="w-full md:w-11/12 mx-auto  py-12">
             <Heading>Themes</Heading>
             <Carousel
-                cols={2}
+                cols={5}
                 rows={1}
                 gap={10}
                 autoPlay={10000}
@@ -50,19 +50,19 @@ const Themes = () => {
                 arrowRight={
                     <FaCircleChevronRight
                         size={50}
-                        className="absolute cursor-pointer rounded-full bg-black text-2xl text-white md:-top-14 md:right-10 z-10 md:-translate-y-1/2"
+                        className="absolute flex md:hidden cursor-pointer rounded-full bg-black text-2xl text-white md:-top-14 md:right-10 z-10 md:-translate-y-1/2"
                     />
                 }
                 arrowLeft={
                     <FaCircleChevronLeft
                         size={50}
-                        className="absolute cursor-pointer rounded-full bg-black text-2xl text-white md:-top-14 md:right-32 z-10 md:-translate-y-1/2"
+                        className="absolute flex md:hidden cursor-pointer rounded-full bg-black text-2xl text-white md:-top-14 md:right-32 z-10 md:-translate-y-1/2"
                     />
                 }
                 responsiveLayout={[
                     {
                         breakpoint: 1400,
-                        cols: 2,
+                        cols: 5,
                         gap: 5,
                     },
                     {
