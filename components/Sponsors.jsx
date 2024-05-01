@@ -53,7 +53,7 @@ const Sponsors = () => {
                         Track Sponsors
                     </h2>
                     <div className='flex flex-col justify-evenly items-center md:flex-row'>
-                        <Link href={"https://www.stindia.com/"}>
+                        <Link href={"https://in.superteam.fun/"}>
                             <img src='/sponsors/stindia.png' alt='sponsor' className='w-60 mx-auto object-contain' />
                         </Link>
                     </div>
