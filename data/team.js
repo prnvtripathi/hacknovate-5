@@ -40,6 +40,11 @@ export const TeamData = [
         linkedin: "https://www.linkedin.com/in/its-harsshhh/",
     },
     {
+        name: "Arjun Dhawan",
+        img: "https://media.licdn.com/dms/image/D4D03AQGGz_HUQgyPDg/profile-displayphoto-shrink_400_400/0/1693031039739?e=1720051200&v=beta&t=Z3KeB9SJF3twGNCk1E-4DtcG81MV6GBklorVDVOZs6Q",
+        linkedin: "https://www.linkedin.com/in/arjun-dhawan-160a2b221/",
+    },
+    {
         name: "Vansh Goel",
         img: "https://media.licdn.com/dms/image/D4D03AQEQKhiEnd-Czg/profile-displayphoto-shrink_400_400/0/1695479377432?e=1718236800&v=beta&t=O-j6QaoM1IFQOSmOSA1BTncFEOLu5b0GC0RG3bhj09g",
         linkedin: "https://www.linkedin.com/in/vansh-goel-100928221/",
@@ -93,10 +98,5 @@ export const TeamData = [
         name: "Abhinav Gupta",
         img: "https://media.licdn.com/dms/image/D5603AQEx9bZfFYBH4w/profile-displayphoto-shrink_400_400/0/1712913242171?e=1718236800&v=beta&t=7n1GcEmHUSOfI5dKV6STbOQ2iJ1hqxptWnwT8-fn9uQ",
         linkedin: "https://www.linkedin.com/in/abhinav-gupta-cs/",
-    },
-    {
-        name: "Manoj Rajpoot",
-        img: "https://media.licdn.com/dms/image/D5603AQGlqRF_TRa73Q/profile-displayphoto-shrink_400_400/0/1705816121825?e=1718236800&v=beta&t=-u2PrX4dGJx18wpqj8KzfaQXEP3vZ-Ilha1f-tImx2M",
-        linkedin: "https://www.linkedin.com/in/manoj-kumar-rajpoot-37190624b/",
     },
 ]
