@@ -17,7 +17,7 @@ const anton = Anton({
 
 export default function Hero() {
   const [isHovered, setIsHovered] = useState(false);
-  const [discordHovered, setdiscordHovered] = useState(false)
+  const [discordHovered, setdiscordHovered] = useState(false);
 
   return (
     <>
@@ -73,69 +73,81 @@ export default function Hero() {
               initial={{ opacity: 0, y: 50 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: 1.3 }}
-              className={`flex flex-col md:flex-row gap-x-2 ${anton.className}`}
+              className={`flex flex-col gap-3 ${anton.className}`}
             >
-              <Link
-                href="https://hacknovate5.devfolio.co/"
-                className="outline outline-1 rounded"
-                onMouseEnter={() => setIsHovered(true)}
-                onMouseLeave={() => setIsHovered(false)}
-              >
-                <Image
-                  src={isHovered ? "/devfoliodark.png" : "/devfoliowhite.png"}
-                  alt="register"
-                  className="bg-transparent w-full h-11 object-contain py-3 px-7 hover:bg-white transition-all"
-                  width={170}
-                  height={25}
-                />
-              </Link>
-              <Link href="https://discord.gg/kaGJwHqW8t"
-                onMouseEnter={() => setdiscordHovered(true)}
-                onMouseLeave={() => setdiscordHovered(false)}
-              >
-                <button className='bg-transparent w-full outline outline-1 rounded hover:bg-white py-3 px-6 hover:text-black transition-colors flex items-center justify-center gap-2'>
-                  <span className="text-xl">
-                    <FaDiscord />
-                  </span>
+              <div className="flex flex-col md:flex-row gap-2">
+                <Link
+                  href="https://hacknovate5.devfolio.co/"
+                  className="outline outline-1 rounded"
+                  onMouseEnter={() => setIsHovered(true)}
+                  onMouseLeave={() => setIsHovered(false)}
+                >
                   <Image
-                    src={discordHovered ? "/discordBlack.svg" : "/discord.svg"}
-                    height={120}
-                    width={65}
-                    alt="discord"
+                    src={isHovered ? "/devfoliodark.png" : "/devfoliowhite.png"}
+                    alt="register"
+                    className="bg-transparent w-full h-11 object-contain py-3 px-7 hover:bg-white transition-all"
+                    width={170}
+                    height={25}
                   />
-                </button>
+                </Link>
+                <Link
+                  href="https://discord.gg/kaGJwHqW8t"
+                  onMouseEnter={() => setdiscordHovered(true)}
+                  onMouseLeave={() => setdiscordHovered(false)}
+                >
+                  <button className="bg-transparent w-full outline outline-1 rounded hover:bg-white py-3 px-6 hover:text-black transition-colors flex items-center justify-center gap-2">
+                    <span className="text-xl">
+                      <FaDiscord />
+                    </span>
+                    <Image
+                      src={
+                        discordHovered ? "/discordBlack.svg" : "/discord.svg"
+                      }
+                      height={120}
+                      width={65}
+                      alt="discord"
+                    />
+                  </button>
+                </Link>
+              </div>
+              
+              <Link href={'https://forms.gle/V2qFQiCFkaZpjMLE6'} target="_blank" className={`${anton.className} w-full bg-white text-black py-2 text-center rounded-sm md:text-base text-sm`}>
+              Submit your Ideas Here
               </Link>
             </motion.div>
           </div>
-
         </div>
 
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4, delay: 1.5 }}
-          className="absolute bottom-10 right-10 md:flex hidden flex-col gap-2">
-          <div className={`text-xl ${anton.className}`}>
-            Follow Us
-          </div>
+          className="absolute bottom-10 right-10 md:flex hidden flex-col gap-2"
+        >
+          <div className={`text-xl ${anton.className}`}>Follow Us</div>
 
           <div className="flex gap-7">
             <Link href="https://twitter.com/hacknovate" target="_blank">
               <FaTwitter className="" size={25} />
             </Link>
-            <Link href="https://www.linkedin.com/company/hacknovate/about/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/company/hacknovate/about/"
+              target="_blank"
+            >
               <FaLinkedin className="" size={25} />
             </Link>
             <Link href="https://discord.gg/kaGJwHqW8t" target="_blank">
               <FaDiscord className="" size={25} />
             </Link>
-            <Link href="https://www.instagram.com/hacknovate.abesit/" target="_blank">
+            <Link
+              href="https://www.instagram.com/hacknovate.abesit/"
+              target="_blank"
+            >
               <FaInstagram className="" size={25} />
             </Link>
           </div>
         </motion.div>
       </motion.div>
-
     </>
   );
 }

@@ -21,7 +21,7 @@ const Sponsors = () => {
                             <img src='/sponsors/polygon.png' alt='sponsor' className='w-60 mx-auto object-contain' />
                         </Link>
                         <Link href={"https://ethindia.co/"}>
-                            <img src='/sponsors/ethindia.png' alt='sponsor' className='w-60 mx-auto bg-white rounded-3xl p-2 object-contain' />
+                            <img src='/sponsors/eth-india-new.png' alt='sponsor' className='w-60 mx-aut rounded-3xl p-2 object-contain' />
                         </Link>
                     </div>
                 </div>
