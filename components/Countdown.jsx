@@ -40,7 +40,7 @@ const CountdownTimer = () => {
     }, []);
 
     return (
-        <div className={`flex justify-center items-center flex-col gap-4 py-12 ${rubik.className}`}>
+        <div className={`flex justify-center items-center flex-col gap-4 ${rubik.className}`}>
             <div className="text-center text-sm md:text-md hover:text-white transition-all hover:scale-90">
                 <div>
                     REGISTRATION CLOSES IN

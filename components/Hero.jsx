@@ -5,6 +5,7 @@ import { Anton } from "next/font/google";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaLinkedin, FaTwitter, FaInstagram, FaDiscord } from "react-icons/fa6";
+import CountdownTimer from "./Countdown";
 
 const pricedown = localFont({
   src: "./../assets/fonts/pricedown.ttf",
@@ -27,19 +28,23 @@ export default function Hero() {
         transition={{ duration: 1.5 }}
         className={`bg-[url(/hero.jpg)] bg-cover bg-center md:bg-cover bg-no-repeat h-screen flex justify-center items-center transition-all`}
       >
-        <div className="bg-gradient-to-t from-black to-transparent md:bg-gradient-to-r md:from-black md:to-transparent h-screen w-screen flex flex-col items-center justify-evenly">
-          <div className="text-white flex flex-col gap-6 items-center justify-center">
-            <div className="flex flex-col text-center">
+        <div className="bg-gradient-to-t from-black to-transparent md:bg-gradient-to-r md:from-black md:to-transparent h-screen w-screen flex flex-col md:flex-row items-center justify-around mx-auto">
+          <div className="text-white flex flex-col mt-20 items-center md:items-start gap-5">
+            <div className="flex flex-col">
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.2 }}
-                className="mx-auto mb-3 md:mb-2 md:mx-0"
+                className="mb-3 md:mb-2"
               >
-                <h2 className={`text-lg md:text-5xl ${anton.className}`}>
+                {/* <h2 className={`text-lg md:text-5xl ${anton.className}`}>
                   ABES Institute of Technology
-                </h2>
-                <p className={`${anton.className} text-center`}>PRESENTS</p>
+                </h2>*/}
+                <div className="w-56 mx-auto md:mx-0">
+                  <img src="/sponsors/hive.svg" alt="Hive" />
+                  <p className={`${anton.className} text-center`}>PRESENTS</p>
+                </div>
+
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
@@ -53,21 +58,41 @@ export default function Hero() {
                   className="mx-auto"
                 />
               </motion.div>
-              <motion.p
+              {/* <motion.p
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.8 }}
-                className={`text-lg md:text-2xl text-center ${anton.className}`}
+                className={`text-lg md:text-2xl text-center md:text-left ${anton.className}`}
               >
                 Code like a pro, Hack like a heist
-              </motion.p>
+              </motion.p> */}
               {/* <motion.p
-                                initial={{ opacity: 0, y: 50 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.4, delay: 0.8 }}
-                                className={`text-lg md:text-2xl text-center md:text-left ${anton.className}`}>
-                                10-11th May 2024
-                            </motion.p> */}
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: 0.8 }}
+                className={`text-lg md:text-2xl text-center md:text-left ${anton.className}`}>
+                10-11th May 2024
+              </motion.p> */}
+
+              <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: 1.1 }}
+                className="flex flex-col md:flex-row gap-3 mt-5 mx-auto md:mx-0">
+                <div className="w-40 mx-auto md:mx-0" >
+                  <p className={`md:text-lg text-center ${anton.className}`}>
+                    Powered by
+                  </p>
+                  <img src="/sponsors/diamante.svg" alt="10-11 May" className="mt-1.5" />
+                </div>
+                <div className="w-32 mx-auto md:mx-0" >
+                  <p className={`md:text-lg text-center ${anton.className}`}>
+                    Organised by
+                  </p>
+                  <img src="/sponsors/abesit.svg" alt="10-11 May" />
+                </div>
+              </motion.div>
+
             </div>
             <motion.div
               initial={{ opacity: 0, y: 50 }}
@@ -110,11 +135,14 @@ export default function Hero() {
                   </button>
                 </Link>
               </div>
-              
+
               <Link href={'https://forms.gle/V2qFQiCFkaZpjMLE6'} target="_blank" className={`${anton.className} w-full bg-white text-black py-2 text-center rounded-sm md:text-base text-sm`}>
-              Submit your Ideas Here
+                Submit your Ideas Here
               </Link>
             </motion.div>
+          </div>
+          <div className="bg-black p-3 bg-opacity-40 backdrop-blur-lg rounded-lg">
+            <CountdownTimer />
           </div>
         </div>
 

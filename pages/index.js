@@ -28,7 +28,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
-        <CountdownTimer />
+        {/* <CountdownTimer /> */}
         <ABESIT />
         <About />
         <Prizes />
