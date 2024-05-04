@@ -74,12 +74,18 @@ const Sponsors = () => {
                     <h2 className={`text-2xl md:text-5xl text-center md:text-left text-gray-300 mb-4 ${title.className}`}>
                         Silver Sponsors
                     </h2>
-                    <div className='flex flex-col justify-evenly items-center md:flex-row'>
+                    <div className='grid md:grid-cols-2 gap-y-4 place-content-center items-center'>
                         <Link href={"https://www.solcanvas.xyz/"}>
                             <img src='/sponsors/solcanvas.png' alt='sponsor' className='w-80 mx-auto object-contain' />
                         </Link>
                         <Link href={"https://ripenapps.com/"}>
                             <img src='/sponsors/ripenapps.png' alt='sponsor' className='w-80 mx-auto object-contain rounded-lg' />
+                        </Link>
+                        <Link href={"https://indibus.com/"}>
+                            <img src='/sponsors/indibus.png' alt='sponsor' className='w-80 mx-auto p-3 bg-black object-contain rounded-lg' />
+                        </Link>
+                        <Link href={"https://indilearn.net/"}>
+                            <img src='/sponsors/indilearn.png' alt='sponsor' className='w-80 mx-auto p-3 bg-black object-contain rounded-lg' />
                         </Link>
                     </div>
                 </div>
