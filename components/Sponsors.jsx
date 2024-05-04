@@ -81,10 +81,10 @@ const Sponsors = () => {
                         <Link href={"https://ripenapps.com/"}>
                             <img src='/sponsors/ripenapps.png' alt='sponsor' className='w-80 mx-auto object-contain rounded-lg' />
                         </Link>
-                        <Link href={"https://indibus.com/"}>
+                        <Link href={"https://indibus.net/"}>
                             <img src='/sponsors/indibus.png' alt='sponsor' className='w-80 mx-auto p-3 bg-black object-contain rounded-lg' />
                         </Link>
-                        <Link href={"https://indilearn.net/"}>
+                        <Link href={"https://indilearn.in/"}>
                             <img src='/sponsors/indilearn.png' alt='sponsor' className='w-80 mx-auto p-3 bg-black object-contain rounded-lg' />
                         </Link>
                     </div>
