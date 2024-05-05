@@ -46,7 +46,7 @@ const Sponsors = () => {
                             <img src='/sponsors/campaigningsource.png' alt='sponsor' className='w-60 mx-auto object-contain' />
                         </Link>
                         <Link href={'https://serverbyt.in/'}>
-                            <img src='/sponsors/serverbyt.png' alt='sponsor' className='w-60 mx-auto object-contain bg-white p-2 rounded-lg' />
+                            <img src='/sponsors/serverbyt.png' alt='sponsor' className='w-72 mx-auto object-contain' />
                         </Link>
                         <Link href={"https://drifko.com/"}>
                             <img src='/sponsors/drifko.png' alt='sponsor' className='w-60 mx-auto p-2 object-contain' />
@@ -74,7 +74,7 @@ const Sponsors = () => {
                     <h2 className={`text-2xl md:text-5xl text-center md:text-left text-gray-300 mb-4 ${title.className}`}>
                         Silver Sponsors
                     </h2>
-                    <div className='grid md:grid-cols-2 gap-y-4 place-content-center items-center'>
+                    <div className='flex flex-col md:flex-row flex-wrap justify-around items-center gap-y-4'>
                         <Link href={"https://www.solcanvas.xyz/"}>
                             <img src='/sponsors/solcanvas.png' alt='sponsor' className='w-80 mx-auto object-contain' />
                         </Link>
@@ -86,6 +86,9 @@ const Sponsors = () => {
                         </Link>
                         <Link href={"https://indilearn.in/"}>
                             <img src='/sponsors/indilearn.png' alt='sponsor' className='w-80 mx-auto p-3 bg-black object-contain rounded-lg' />
+                        </Link>
+                        <Link href={"https://www.blockpen.xyz/"}>
+                            <img src='/sponsors/blockpen.svg' alt='sponsor' className='w-24 mx-auto p-3 bg-white object-contain rounded-lg' />
                         </Link>
                     </div>
                 </div>
