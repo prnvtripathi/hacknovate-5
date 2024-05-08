@@ -60,6 +60,10 @@ const CommunityPartnerR1 = [
     {
         name: "Tech Talks",
         img: "/comm/techtalks.jpg",
+    },
+    {
+        name: "DevStation",
+        img: "/comm/devstation.png",
     }
 ]
 export { CommunityPartnerR1 }
