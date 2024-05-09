@@ -74,7 +74,10 @@ const Sponsors = () => {
                     <h2 className={`text-2xl md:text-5xl text-center md:text-left text-gray-300 mb-4 ${title.className}`}>
                         Silver Sponsors
                     </h2>
-                    <div className='flex flex-col md:flex-row flex-wrap justify-around items-center gap-y-4'>
+                    <div className='grid md:grid-cols-3 place-content-center items-center gap-y-4'>
+                        <Link href={"https://reskilll.com/"}>
+                            <img src='/sponsors/reskilll.png' alt='sponsor' className='w-80 mx-auto object-contain' />
+                        </Link>
                         <Link href={"https://www.solcanvas.xyz/"}>
                             <img src='/sponsors/solcanvas.png' alt='sponsor' className='w-80 mx-auto object-contain' />
                         </Link>
