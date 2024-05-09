@@ -66,6 +66,9 @@ const Sponsors = () => {
                         <Link href={"https://ethindia.co/"}>
                             <img src='/sponsors/eth-india-new.png' alt='sponsor' className='w-60 mx-aut rounded-3xl p-2 object-contain' />
                         </Link>
+                        <Link href={"https://www.blockpen.xyz/"}>
+                            <img src='/sponsors/blockpen.jpg' alt='sponsor' className='w-48 mx-auto p-3 bg-white object-contain rounded-lg' />
+                        </Link>
                     </div>
                 </div>
 
@@ -90,8 +93,8 @@ const Sponsors = () => {
                         <Link href={"https://indilearn.in/"}>
                             <img src='/sponsors/indilearn.png' alt='sponsor' className='w-80 mx-auto p-3 bg-black object-contain rounded-lg' />
                         </Link>
-                        <Link href={"https://www.blockpen.xyz/"}>
-                            <img src='/sponsors/blockpen.svg' alt='sponsor' className='w-24 mx-auto p-3 bg-white object-contain rounded-lg' />
+                        <Link href={"https://dappdost.vercel.app/"}>
+                            <img src='/sponsors/dappdost.png' alt='sponsor' className='w-80 mx-auto rounded-xl' />
                         </Link>
                     </div>
                 </div>
