@@ -124,14 +124,14 @@ const Prizes = () => {
           <img src='/girl.png' alt=' ' className='w-32' />
           <div>
             <h2 className='text-2xl font-bold text-center text-black'>Best All Girls Team</h2>
-            <p className='text-center text-6xl font-bold font-outline-2 text-michael-blue'>₹4,000</p>
+            <p className='text-center text-6xl font-bold font-outline-2 text-michael-blue'>₹2,500</p>
           </div>
         </div>
         <div className='flex flex-col items-center justify-center w-72 h-96 mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
           <img src='/newbie.png' alt=' ' className='w-60' />
           <div>
             <h2 className='text-2xl font-bold text-center text-black'>Best Beginners Team</h2>
-            <p className='text-center text-6xl font-bold font-outline-2 text-michael-blue'>₹4,000</p>
+            <p className='text-center text-6xl font-bold font-outline-2 text-michael-blue'>₹2,500</p>
           </div>
         </div>
       </div>
@@ -149,7 +149,7 @@ const Prizes = () => {
               <img src='/sponsors/hive.svg' alt=' ' className='w-1/2 mx-auto' />
               <p className='text-center text-black p-2 w-fit rounded-xl mx-auto mt-3 text-4xl bg-white font-semibold'>$2000</p>
             </div>
-            <div className='flex flex-col items-center justify-around h-96 w-96 mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
+            <div className='flex flex-col items-center justify-around mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
               <h3 className='text-2xl font-bold text-center bg-black p-1.5 rounded-lg'>Hive - The Blockchain & Cryptocurrency for Web3</h3>
               <div className='flex flex-col gap-y-3'>
                 <p className='text-center text-black font-semibold'>
@@ -172,7 +172,7 @@ const Prizes = () => {
               <img src='/sponsors/serverbyt.png' alt=' ' className='w- mx-auto' />
               <p className='text-center text-black p-2 w-fit rounded-xl mx-auto mt-3 text-4xl bg-white font-semibold'>$9000</p>
             </div>
-            <div className='flex flex-col items-center justify-around h-fit w-96 mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
+            <div className='flex flex-col items-center justify-around h-fit mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
               <h3 className='text-2xl font-bold text-center min-w-80 bg-black p-1.5 rounded-lg'>ServerByt Hosting Plan</h3>
               <p className='text-center text-black font-semibold'>
                 ServerByt is providing Blaze plan of worth $30 to each participants
@@ -188,7 +188,7 @@ const Prizes = () => {
               <img src='/sponsors/polygon.png' alt=' ' className='w-1/2 mx-auto' />
               <p className='text-center text-black p-2 w-fit rounded-xl mx-auto mt-3 text-4xl bg-white font-semibold'>$200</p>
             </div>
-            <div className='flex flex-col items-center justify-around h-fit w-96 mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
+            <div className='flex flex-col items-center justify-around h-fit mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
               <h3 className='text-2xl font-bold text-center min-w-80 bg-black p-1.5 rounded-lg'>Best hack built on Polygon</h3>
               <p className='text-center text-black font-semibold'>
                 Read about the bounty details and find code templates for Polygon <a href="https://nsb.dev/polygon-bounty" className='underline'>here:</a>
@@ -205,7 +205,7 @@ const Prizes = () => {
               <img src='/sponsors/ethindia.png' alt=' ' className='w-1/2 mx-auto' />
               <p className='text-center text-black p-2 w-fit rounded-xl mx-auto mt-3 text-4xl bg-white font-semibold'>$100</p>
             </div>
-            <div className='flex flex-col items-center justify-around h-fit w-96 mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
+            <div className='flex flex-col items-center justify-around h-fit mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
               <h3 className='text-2xl font-bold text-center min-w-80 bg-black p-1.5 rounded-lg'>Best hack built on Ethereum</h3>
               <p className='text-center text-black font-semibold'>
                 Winner of this track receives $100 in prizes from ETHIndia.
@@ -222,7 +222,7 @@ const Prizes = () => {
               <img src='/sponsors/verbwire.png' alt=' ' className='w-1/2 mx-auto rounded-lg' />
               <p className='text-center text-black p-2 w-fit rounded-xl mx-auto mt-3 text-4xl bg-white font-semibold'>$5000</p>
             </div>
-            <div className='flex flex-col items-center justify-around h-fit w-96 mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
+            <div className='flex flex-col items-center justify-around h-fit mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
               <h3 className='text-2xl font-bold text-center min-w-80 bg-black p-1.5 rounded-lg'>Verbwire API</h3>
               <p className='text-center text-black font-semibold'>
                 Best Use of AI & Verbwire API - Up to $4,000 in Premium API Credits, across up to 15 teams ($45 credit per team member)
@@ -230,6 +230,34 @@ const Prizes = () => {
             </div>
           </div>
         </div>
+
+        {/* Campaigning Source */}
+        <div>
+          <div className='grid md:grid-cols-2 gap-4 items-center place-content-center mb-8'>
+            <div className=''>
+              <img src='/sponsors/campaigningsource.png' alt=' ' className='w-1/2 mx-auto' />
+              <p className='text-center text-black p-2 w-fit rounded-xl mx-auto mt-3 text-4xl bg-white font-semibold'>$1800</p>
+            </div>
+            <div className='flex flex-col items-center justify-around gap-4 mx-auto p-4 bg-white bg-opacity-80 rounded-xl hover:transform hover:rotate-12 hover:scale-105 transition-all'>
+              <h3 className='text-2xl font-bold text-center bg-black p-1.5 rounded-lg'>Best Business Idea</h3>
+              <div className='flex flex-col gap-y-3'>
+                <p className='text-center text-black font-semibold'>
+                  Develop a solution that leverages emerging technologies, sustainable practices, or novel business models to create tangible impact and drive positive change in the world. Whether disrupting existing industries or creating entirely new markets, your solution should demonstrate creativity, feasibility, and market potential.
+                </p>
+                <ol className='text-black font-semibold list-decimal pl-4'>
+                  <li>Impact : How does your solution address a pressing societal challenge or enhance daily life experiences?</li>
+                  <li>Scalability : Can your solution grow to reach a wide audience or market?</li>
+                  <li>Sustainability : Is your solution environmentally and socially sustainable in the long term?</li>
+                  <li>Feasibility : Can your solution be implemented with existing resources and technologies?</li>
+                  <li>Market Potential : Does your solution have the potential to evolve into a viable startup venture?</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
 
 
