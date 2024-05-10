@@ -40,12 +40,7 @@ const CountdownTimer = () => {
     }, []);
 
     return (
-        <div className={`flex justify-center items-center flex-col gap-4 ${rubik.className}`}>
-            <div className="text-center text-sm md:text-md hover:text-white transition-all hover:scale-90">
-                <div>
-                    HACKING STARTS IN
-                </div>
-            </div>
+        <div className={`flex justify-center w-96 text-center items-center ${rubik.className}`}>
             <div className="text-3xl sm:text-4xl md:text-5xl">{countdown}</div>
         </div>
     );

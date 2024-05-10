@@ -101,7 +101,7 @@ export default function Hero() {
               className={`flex flex-col gap-3 ${anton.className}`}
             >
               <div className="flex flex-col md:flex-row gap-2">
-                <Link
+                {/* <Link
                   href="https://hacknovate5.devfolio.co/"
                   className="outline outline-1 rounded"
                   onMouseEnter={() => setIsHovered(true)}
@@ -114,7 +114,7 @@ export default function Hero() {
                     width={170}
                     height={25}
                   />
-                </Link>
+                </Link> */}
                 <Link
                   href="https://discord.gg/kaGJwHqW8t"
                   onMouseEnter={() => setdiscordHovered(true)}
@@ -135,10 +135,6 @@ export default function Hero() {
                   </button>
                 </Link>
               </div>
-
-              <Link href={'https://forms.gle/V2qFQiCFkaZpjMLE6'} target="_blank" className={`${anton.className} w-full bg-white text-black py-2 text-center rounded-sm md:text-base text-sm`}>
-                Submit your Ideas Here
-              </Link>
             </motion.div>
           </div>
           <div className="bg-black p-3 bg-opacity-40 backdrop-blur-lg rounded-lg">
